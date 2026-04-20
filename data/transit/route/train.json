@@ -2081,6 +2081,12 @@
       }
     },
     {
+      "displayName": "RFI",
+      "id": "rfi-44bbb3",
+      "locationSet": {"include": ["001"]},
+      "tags": {"network": "RFI", "route": "train"}
+    },
+    {
       "displayName": "RhB",
       "id": "rhb-0c66c7",
       "locationSet": {
