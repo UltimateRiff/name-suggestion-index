@@ -2724,6 +2724,18 @@
       }
     },
     {
+      "displayName": "Ford's Garage",
+      "id": "fordsgarage-96af40",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ford's Garage",
+        "brand:wikidata": "Q106623578",
+        "cuisine": "american;burger",
+        "name": "Ford's Garage"
+      }
+    },
+    {
       "displayName": "Foster's Grille",
       "id": "fostersgrille-0bf16a",
       "locationSet": {
@@ -4204,6 +4216,19 @@
       }
     },
     {
+      "displayName": "La Pizza de Nico",
+      "id": "lapizzadenico-dee615",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "La Pizza de Nico",
+        "brand:wikidata": "Q139917217",
+        "cuisine": "pizza",
+        "name": "La Pizza de Nico",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "La Place",
       "id": "laplace-179420",
       "locationSet": {
@@ -4608,6 +4633,21 @@
         "brand:wikidata": "Q2491217",
         "cuisine": "regional",
         "name": "Lunch Garden"
+      }
+    },
+    {
+      "displayName": "Lupe Tortilla",
+      "id": "lupetortilla-5297f1",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "matchNames": ["tex mex"],
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Lupe Tortilla",
+        "brand:wikidata": "Q126346007",
+        "cuisine": "tex-mex",
+        "name": "Lupe Tortilla"
       }
     },
     {
@@ -6209,6 +6249,20 @@
       }
     },
     {
+      "displayName": "Pincho Nation",
+      "id": "pinchonation-c5098f",
+      "issues": [5500],
+      "locationSet": {"include": ["dk", "no"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pincho Nation",
+        "brand:wikidata": "Q42298558",
+        "cuisine": "tapas",
+        "name": "Pincho Nation"
+      }
+    },
+    {
       "displayName": "Pinchos",
       "id": "pinchos-45c141",
       "locationSet": {"include": ["se"]},
@@ -6541,6 +6595,31 @@
         "brand:wikidata": "Q3391111",
         "cuisine": "american",
         "name": "Rainforest Cafe"
+      }
+    },
+    {
+      "displayName": "Ramen Santouka",
+      "id": "hokkaidoramensantouka-94e5f8",
+      "locationSet": {
+        "include": [
+          "ca",
+          "hk",
+          "my",
+          "ph",
+          "th",
+          "us"
+        ]
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Hokkaido Ramen Santouka",
+        "brand:en": "Hokkaido Ramen Santouka",
+        "brand:ja": "らーめん山頭火",
+        "brand:wikidata": "Q17210103",
+        "cuisine": "ramen",
+        "name": "Hokkaido Ramen Santouka",
+        "name:en": "Hokkaido Ramen Santouka",
+        "name:ja": "らーめん山頭火"
       }
     },
     {
@@ -7154,6 +7233,20 @@
         "brand:wikidata": "Q7503275",
         "cuisine": "american;greek",
         "name": "Showmars"
+      }
+    },
+    {
+      "displayName": "Sibuya",
+      "id": "sibuya-eac336",
+      "locationSet": {
+        "include": ["ad", "es", "pt"]
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Sibuya",
+        "brand:wikidata": "Q139770153",
+        "cuisine": "japanese",
+        "name": "Sibuya"
       }
     },
     {
@@ -7945,6 +8038,18 @@
       }
     },
     {
+      "displayName": "The Kickin' Crab",
+      "id": "thekickincrab-96af40",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "The Kickin' Crab",
+        "brand:wikidata": "Q124366383",
+        "cuisine": "seafood",
+        "name": "The Kickin' Crab"
+      }
+    },
+    {
       "displayName": "The Melting Pot",
       "id": "themeltingpot-96af40",
       "locationSet": {"include": ["us"]},
@@ -7988,8 +8093,8 @@
     },
     {
       "displayName": "The Pizza Bakery",
-      "id": "thepizzabakery-d9e7a3",
-      "locationSet": {"include": ["in"]},
+      "id": "thepizzabakery-4478cd",
+      "locationSet": {"include": ["in", "lk"]},
       "tags": {
         "amenity": "restaurant",
         "brand": "The Pizza Bakery",
@@ -8066,6 +8171,48 @@
         "brand:wikidata": "Q7801833",
         "cuisine": "mexican",
         "name": "Tijuana Flats"
+      }
+    },
+    {
+      "displayName": "Tim Ho Wan",
+      "id": "timhowan-5497f7",
+      "locationSet": {
+        "include": [
+          "au",
+          "jp",
+          "kr",
+          "ph",
+          "sg",
+          "us",
+          "vn"
+        ]
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Tim Ho Wan",
+        "brand:en": "Tim Ho Wan",
+        "brand:wikidata": "Q11153709",
+        "brand:zh": "添好運",
+        "cuisine": "dim_sum",
+        "name": "Tim Ho Wan",
+        "name:en": "Tim Ho Wan",
+        "name:zh": "添好運"
+      }
+    },
+    {
+      "displayName": "Tim Ho Wan 添好運",
+      "id": "timhowan-edf541",
+      "locationSet": {"include": ["hk", "mo"]},
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Tim Ho Wan 添好運",
+        "brand:en": "Tim Ho Wan",
+        "brand:wikidata": "Q11153709",
+        "brand:zh": "添好運",
+        "cuisine": "dim_sum",
+        "name": "Tim Ho Wan 添好運",
+        "name:en": "Tim Ho Wan",
+        "name:zh": "添好運"
       }
     },
     {
@@ -8524,6 +8671,18 @@
         "name:zh": "云尚过桥米线",
         "name:zh-Hans": "云尚过桥米线",
         "name:zh-Hant": "雲尚過橋米綫"
+      }
+    },
+    {
+      "displayName": "Zeeks Pizza",
+      "id": "zeekspizza-96af40",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Zeeks Pizza",
+        "brand:wikidata": "Q139585447",
+        "cuisine": "pizza",
+        "name": "Zeeks Pizza"
       }
     },
     {
@@ -9303,6 +9462,22 @@
         "name": "ラーメン山岡家",
         "name:en": "Ramen Yamaokaya",
         "name:ja": "ラーメン山岡家"
+      }
+    },
+    {
+      "displayName": "らーめん山頭火",
+      "id": "hokkaidoramensantouka-d30421",
+      "locationSet": {"include": ["jp", "tw"]},
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "らーめん山頭火",
+        "brand:en": "Hokkaido Ramen Santouka",
+        "brand:ja": "らーめん山頭火",
+        "brand:wikidata": "Q17210103",
+        "cuisine": "ramen",
+        "name": "らーめん山頭火",
+        "name:en": "Hokkaido Ramen Santouka",
+        "name:ja": "らーめん山頭火"
       }
     },
     {
@@ -10766,6 +10941,25 @@
         "name": "涮乃葉",
         "name:en": "Syabuyo",
         "name:zh": "涮乃葉"
+      }
+    },
+    {
+      "displayName": "添好運",
+      "id": "timhowan-46d384",
+      "locationSet": {
+        "include": ["cn", "tw"],
+        "exclude": ["hk", "mo"]
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "添好運",
+        "brand:en": "Tim Ho Wan",
+        "brand:wikidata": "Q11153709",
+        "brand:zh": "添好運",
+        "cuisine": "dim_sum",
+        "name": "添好運",
+        "name:en": "Tim Ho Wan",
+        "name:zh": "添好運"
       }
     },
     {

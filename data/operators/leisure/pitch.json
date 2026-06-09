@@ -2,7 +2,8 @@
   "properties": {
     "path": "operators/leisure/pitch",
     "exclude": {
-      "generic": ["^military$", "^pitch$"]
+      "generic": ["^military$", "^pitch$"],
+      "named": ["^sícoris club$"]
     }
   },
   "items": [
@@ -798,6 +799,17 @@
       }
     },
     {
+      "displayName": "PadelCity",
+      "id": "padelcity-b87489",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "leisure": "pitch",
+        "operator": "PadelCity",
+        "operator:wikidata": "Q139622987",
+        "sport": "padel"
+      }
+    },
+    {
       "displayName": "Paintball-Wesenberg",
       "id": "paintballwesenberg-b87489",
       "locationSet": {"include": ["de"]},
@@ -944,17 +956,6 @@
       "tags": {
         "leisure": "pitch",
         "operator": "Shaw Park"
-      }
-    },
-    {
-      "displayName": "Sícoris Club",
-      "id": "sicorisclub-c65025",
-      "locationSet": {
-        "include": ["es-l.geojson"]
-      },
-      "tags": {
-        "leisure": "pitch",
-        "operator": "Sícoris Club"
       }
     },
     {

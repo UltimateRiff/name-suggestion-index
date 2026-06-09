@@ -302,6 +302,23 @@
       }
     },
     {
+      "displayName": "Metro Bilbao",
+      "id": "metrobilbao-54ee6d",
+      "locationSet": {
+        "include": ["es-bi.geojson"]
+      },
+      "matchNames": [
+        "bilbao metro",
+        "bilboko metroa",
+        "metro de bilbao"
+      ],
+      "tags": {
+        "network": "Metro Bilbao",
+        "network:wikidata": "Q325309",
+        "route": "subway"
+      }
+    },
+    {
       "displayName": "Métro d'Alger",
       "id": "metrodalger-a8b2a7",
       "locationSet": {"include": ["dz"]},
@@ -760,7 +777,7 @@
       "locationSet": {"include": ["nl"]},
       "tags": {
         "network": "Stadsvervoer Amsterdam",
-        "network:wikidata": "Q108742702",
+        "network:wikidata": "Q137608588",
         "operator": "GVB",
         "operator:wikidata": "Q1808041",
         "route": "subway"
@@ -841,6 +858,10 @@
       "locationSet": {
         "include": ["au-nsw.geojson"]
       },
+      "matchNames": [
+        "tfnsw",
+        "transport for nsw"
+      ],
       "tags": {
         "network": "Sydney Metro",
         "network:wikidata": "Q14774571",

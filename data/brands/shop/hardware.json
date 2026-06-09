@@ -164,17 +164,6 @@
       }
     },
     {
-      "displayName": "HECHT",
-      "id": "hecht-82539a",
-      "locationSet": {"include": ["cz", "sk"]},
-      "tags": {
-        "brand": "HECHT",
-        "brand:wikidata": "Q130677979",
-        "name": "HECHT",
-        "shop": "hardware"
-      }
-    },
-    {
       "displayName": "Home Hardware",
       "id": "homehardware-98155f",
       "locationSet": {"include": ["ca"]},
@@ -182,17 +171,6 @@
         "brand": "Home Hardware",
         "brand:wikidata": "Q3139611",
         "name": "Home Hardware",
-        "shop": "hardware"
-      }
-    },
-    {
-      "displayName": "Husqvarna",
-      "id": "husqvarna-7cd80a",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "brand": "Husqvarna",
-        "brand:wikidata": "Q899356",
-        "name": "Husqvarna",
         "shop": "hardware"
       }
     },
@@ -360,17 +338,6 @@
       }
     },
     {
-      "displayName": "Stihl",
-      "id": "stihl-7cd80a",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "brand": "Stihl",
-        "brand:wikidata": "Q239372",
-        "name": "Stihl",
-        "shop": "hardware"
-      }
-    },
-    {
       "displayName": "Sydney Tools",
       "id": "sydneytools-1421b1",
       "locationSet": {"include": ["au"]},
@@ -441,17 +408,10 @@
     },
     {
       "displayName": "Würth",
-      "id": "wurth-96a10c",
+      "id": "wurth-e39dfb",
       "locationSet": {
         "include": ["001"],
-        "exclude": [
-          "ca",
-          "cn",
-          "jp",
-          "ru",
-          "tw",
-          "us"
-        ]
+        "exclude": ["ca", "cn", "jp", "tw", "us"]
       },
       "preserveTags": ["^name"],
       "tags": {

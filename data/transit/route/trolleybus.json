@@ -141,20 +141,6 @@
       }
     },
     {
-      "displayName": "IDS ZID",
-      "id": "idszid-64bab8",
-      "locationSet": {
-        "include": ["cz-72.geojson"]
-      },
-      "tags": {
-        "network": "IDS ZID",
-        "network:wikidata": "Q10861159",
-        "operator": "DSZO",
-        "operator:wikidata": "Q58524503",
-        "route": "trolleybus"
-      }
-    },
-    {
       "displayName": "Kaluga City Trolley Bus",
       "id": "kalugacitytrolleybus-ea4a14",
       "locationSet": {"include": ["ru"]},
@@ -207,7 +193,7 @@
       },
       "tags": {
         "network": "Lublin",
-        "network:wikidata": "Q126952443",
+        "network:wikidata": "Q27686568",
         "operator": "MPK Lublin",
         "operator:wikidata": "Q11742137",
         "route": "trolleybus"
@@ -756,6 +742,23 @@
       "locationSet": {"include": ["001"]},
       "tags": {
         "network": "Zarząd Transportu Metropolitalnego",
+        "route": "trolleybus"
+      }
+    },
+    {
+      "displayName": "ZID",
+      "id": "zlinskaintegrovanadoprava-64bab8",
+      "locationSet": {
+        "include": ["cz-72.geojson"]
+      },
+      "matchNames": ["ids zid"],
+      "tags": {
+        "network": "Zlínská integrovaná doprava",
+        "network:short": "ZID",
+        "network:wikidata": "Q10861159",
+        "operator": "Dopravní společnost Zlín-Otrokovice",
+        "operator:short": "DSZO",
+        "operator:wikidata": "Q58524503",
         "route": "trolleybus"
       }
     },

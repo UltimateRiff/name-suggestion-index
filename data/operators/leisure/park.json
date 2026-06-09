@@ -378,6 +378,19 @@
       }
     },
     {
+      "displayName": "Bartlett Park District",
+      "id": "bartlettparkdistrict-17eabc",
+      "locationSet": {
+        "include": ["us-il.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Bartlett Park District",
+        "operator:type": "public",
+        "operator:wikidata": "Q139913917"
+      }
+    },
+    {
       "displayName": "Batavia Park District",
       "id": "bataviaparkdistrict-17eabc",
       "locationSet": {
@@ -959,7 +972,7 @@
         "leisure": "park",
         "operator": "City of Anaheim",
         "operator:type": "government",
-        "operator:wikidata": "Q49247"
+        "operator:wikidata": "Q139044657"
       }
     },
     {
@@ -1501,7 +1514,7 @@
         "leisure": "park",
         "operator": "City of Cleveland",
         "operator:type": "government",
-        "operator:wikidata": "Q37320"
+        "operator:wikidata": "Q139385923"
       }
     },
     {
@@ -1579,7 +1592,7 @@
         "leisure": "park",
         "operator": "City of Coquitlam",
         "operator:type": "government",
-        "operator:wikidata": "Q643215"
+        "operator:wikidata": "Q139888158"
       }
     },
     {
@@ -1709,7 +1722,7 @@
         "leisure": "park",
         "operator": "City of Detroit",
         "operator:type": "government",
-        "operator:wikidata": "Q12439"
+        "operator:wikidata": "Q2824588"
       }
     },
     {
@@ -2281,7 +2294,7 @@
         "leisure": "park",
         "operator": "City of Irvine",
         "operator:type": "government",
-        "operator:wikidata": "Q49219"
+        "operator:wikidata": "Q139033177"
       }
     },
     {
@@ -2307,7 +2320,7 @@
         "leisure": "park",
         "operator": "City of Jacksonville",
         "operator:type": "government",
-        "operator:wikidata": "Q16568"
+        "operator:wikidata": "Q6503164"
       }
     },
     {
@@ -2750,7 +2763,7 @@
         "leisure": "park",
         "operator": "City of Miami",
         "operator:type": "government",
-        "operator:wikidata": "Q8652"
+        "operator:wikidata": "Q5589249"
       }
     },
     {
@@ -3165,7 +3178,7 @@
         "leisure": "park",
         "operator": "City of Richmond",
         "operator:type": "government",
-        "operator:wikidata": "Q43421"
+        "operator:wikidata": "Q29093055"
       }
     },
     {
@@ -3178,7 +3191,7 @@
         "leisure": "park",
         "operator": "City of Riverside",
         "operator:type": "government",
-        "operator:wikidata": "Q49243"
+        "operator:wikidata": "Q139000354"
       }
     },
     {
@@ -3387,7 +3400,7 @@
         "leisure": "park",
         "operator": "City of Santa Fe",
         "operator:type": "government",
-        "operator:wikidata": "Q38555"
+        "operator:wikidata": "Q96338858"
       }
     },
     {
@@ -4147,6 +4160,20 @@
       }
     },
     {
+      "displayName": "County of San Bernardino",
+      "id": "countyofsanbernardino-dc1787",
+      "locationSet": {
+        "include": ["us-ca.geojson"]
+      },
+      "matchNames": ["san bernardino county"],
+      "tags": {
+        "leisure": "park",
+        "operator": "County of San Bernardino",
+        "operator:type": "government",
+        "operator:wikidata": "Q138891274"
+      }
+    },
+    {
       "displayName": "Cowichan Valley Regional District",
       "id": "cowichanvalleyregionaldistrict-b3cf59",
       "locationSet": {
@@ -4373,11 +4400,15 @@
     },
     {
       "displayName": "Elk Grove Park District",
-      "id": "elkgroveparkdistrict-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "elkgroveparkdistrict-17eabc",
+      "locationSet": {
+        "include": ["us-il.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Elk Grove Park District"
+        "operator": "Elk Grove Park District",
+        "operator:type": "public",
+        "operator:wikidata": "Q139913214"
       }
     },
     {
@@ -4835,6 +4866,19 @@
       }
     },
     {
+      "displayName": "Hanover Park Park District",
+      "id": "hanoverparkparkdistrict-17eabc",
+      "locationSet": {
+        "include": ["us-il.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Hanover Park Park District",
+        "operator:type": "public",
+        "operator:wikidata": "Q139903164"
+      }
+    },
+    {
       "displayName": "Hanover Township",
       "id": "hanovertownship-dc67ca",
       "locationSet": {
@@ -4954,19 +4998,20 @@
       }
     },
     {
-      "displayName": "Hillsborough County (Florida)",
-      "id": "hillsboroughcounty-38b713",
+      "displayName": "Hillsborough County Parks and Recreation Department",
+      "id": "hillsboroughcountyparksandrecreationdepartment-38b713",
       "locationSet": {
         "include": ["us-fl.geojson"]
       },
       "matchNames": [
+        "hillsborough county",
         "hillsborough county parks, receration and conservation department"
       ],
       "tags": {
         "leisure": "park",
-        "operator": "Hillsborough County",
+        "operator": "Hillsborough County Parks and Recreation Department",
         "operator:type": "government",
-        "operator:wikidata": "Q488874"
+        "operator:wikidata": "Q139916268"
       }
     },
     {
@@ -7404,19 +7449,6 @@
         "operator": "Saint Paul Department of Parks and Recreation",
         "operator:type": "government",
         "operator:wikidata": "Q123583563"
-      }
-    },
-    {
-      "displayName": "San Bernardino County",
-      "id": "sanbernardinocounty-dc1787",
-      "locationSet": {
-        "include": ["us-ca.geojson"]
-      },
-      "tags": {
-        "leisure": "park",
-        "operator": "San Bernardino County",
-        "operator:type": "government",
-        "operator:wikidata": "Q108053"
       }
     },
     {

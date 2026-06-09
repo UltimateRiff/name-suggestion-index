@@ -12902,6 +12902,8 @@
       "tags": {
         "amenity": "school",
         "operator": "Cornwall Council",
+        "operator:en": "Cornwall Council",
+        "operator:kw": "Konsel Kernow",
         "operator:type": "government",
         "operator:wikidata": "Q3774189"
       }
@@ -20445,6 +20447,21 @@
         "operator": "Governor Generoso South District",
         "operator:type": "government",
         "operator:wikidata": "Q130491373"
+      }
+    },
+    {
+      "displayName": "Grace Schools",
+      "id": "graceschools-26e9df",
+      "locationSet": {"include": ["gb"]},
+      "matchNames": [
+        "diocese of ely multi-academy trust",
+        "the diocese of ely multi-academy trust"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Grace Schools",
+        "operator:type": "private",
+        "operator:wikidata": "Q121704464"
       }
     },
     {
@@ -32351,7 +32368,7 @@
         "operator": "Ministero dell'Istruzione, dell'Università e della Ricerca",
         "operator:short": "MIUR",
         "operator:type": "government",
-        "operator:wikidata": "Q3858483"
+        "operator:wikidata": "Q1307461"
       }
     },
     {
@@ -35876,21 +35893,6 @@
         "operator": "Our Lady Of Lourdes Catholic Multi-Academy Trust",
         "operator:type": "private",
         "operator:wikidata": "Q121704492"
-      }
-    },
-    {
-      "displayName": "Our Lady of The Magnificat Multi-Academy Company",
-      "id": "ourladyofthemagnificatmultiacademycompany-7a837c",
-      "locationSet": {"include": ["gb-eng"]},
-      "matchNames": [
-        "our lady of the magnificat",
-        "our lady of the magnificat multi-academy"
-      ],
-      "tags": {
-        "amenity": "school",
-        "operator": "Our Lady of The Magnificat Multi-Academy Company",
-        "operator:type": "private",
-        "operator:wikidata": "Q122616302"
       }
     },
     {
@@ -47523,6 +47525,22 @@
       }
     },
     {
+      "displayName": "St Raphael The Archangel Catholic Multi-Academy Trust",
+      "id": "straphaelthearchangelcatholicmultiacademytrust-7a837c",
+      "locationSet": {"include": ["gb-eng"]},
+      "matchNames": [
+        "our lady of the magnificat",
+        "our lady of the magnificat multi-academy",
+        "our lady of the magnificat multi-academy company"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "St Raphael The Archangel Catholic Multi-Academy Trust",
+        "operator:type": "private",
+        "operator:wikidata": "Q122616302"
+      }
+    },
+    {
       "displayName": "St Teresa of Calcutta Catholic Academy Trust",
       "id": "stteresaofcalcuttacatholicacademytrust-7a837c",
       "locationSet": {"include": ["gb-eng"]},
@@ -50470,6 +50488,17 @@
       }
     },
     {
+      "displayName": "The Blessed Edward Bamber Catholic Multi Academy Trust",
+      "id": "theblessededwardbambercatholicmultiacademytrust-7a837c",
+      "locationSet": {"include": ["gb-eng"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "The Blessed Edward Bamber Catholic Multi Academy Trust",
+        "operator:type": "private",
+        "operator:wikidata": "Q122683151"
+      }
+    },
+    {
       "displayName": "The Blue Kite Academy Trust",
       "id": "thebluekiteacademytrust-7a837c",
       "locationSet": {"include": ["gb-eng"]},
@@ -50629,21 +50658,6 @@
         "operator": "The Diocese of Coventry Multi-Academy Trust",
         "operator:type": "private",
         "operator:wikidata": "Q122616261"
-      }
-    },
-    {
-      "displayName": "The Diocese of Ely Multi-Academy Trust",
-      "id": "thedioceseofelymultiacademytrust-26e9df",
-      "locationSet": {"include": ["gb"]},
-      "matchNames": [
-        "diocese of ely multi-academy trust"
-      ],
-      "tags": {
-        "amenity": "school",
-        "operator": "The Diocese of Ely Multi-Academy Trust",
-        "operator:short": "DEMAT",
-        "operator:type": "private",
-        "operator:wikidata": "Q121704464"
       }
     },
     {
@@ -53158,14 +53172,13 @@
       },
       "matchNames": [
         "school district 39",
-        "sd39",
-        "vancouver school board"
+        "sd39"
       ],
       "tags": {
         "amenity": "school",
         "operator": "School District Number 39 (Vancouver)",
         "operator:abbr": "VSB",
-        "operator:short:": "Vancouver School Board",
+        "operator:short": "Vancouver School Board",
         "operator:type": "public",
         "operator:wikidata": "Q1189835"
       }
@@ -53427,7 +53440,7 @@
         "amenity": "school",
         "operator": "Viken fylkeskommune",
         "operator:type": "government",
-        "operator:wikidata": "Q11269848"
+        "operator:wikidata": "Q66536308"
       }
     },
     {

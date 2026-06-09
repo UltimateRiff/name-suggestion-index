@@ -73,7 +73,7 @@
     },
     {
       "displayName": "Allianz",
-      "id": "allianz-400bd0",
+      "id": "allianz-4457e3",
       "locationSet": {
         "include": [
           "ae",
@@ -137,7 +137,6 @@
           "pt",
           "qa",
           "ro",
-          "ru",
           "sa",
           "se",
           "sg",
@@ -1384,7 +1383,7 @@
     },
     {
       "displayName": "Groupama",
-      "id": "groupama-bb2387",
+      "id": "groupama-ad965a",
       "locationSet": {
         "include": [
           "bg",
@@ -1394,7 +1393,6 @@
           "hu",
           "it",
           "ro",
-          "sk",
           "tr"
         ]
       },
@@ -2205,7 +2203,7 @@
       "note": "May have been 2 entities before but seems to be merged into a single one now, see #4544, #4548, #4569",
       "tags": {
         "brand": "Provinzial",
-        "brand:wikidata": "Q1778922",
+        "brand:wikidata": "Q2114066",
         "name": "Provinzial",
         "office": "insurance"
       }
@@ -2584,7 +2582,7 @@
     },
     {
       "displayName": "Uniqa",
-      "id": "uniqa-dc7360",
+      "id": "uniqa-39b262",
       "locationSet": {
         "include": [
           "al",
@@ -2601,7 +2599,6 @@
           "pl",
           "ro",
           "rs",
-          "ru",
           "sk",
           "ua",
           "xk"

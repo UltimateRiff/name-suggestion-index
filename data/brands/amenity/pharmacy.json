@@ -76,7 +76,7 @@
         "brand:en": "36.6",
         "brand:ka": "36.6",
         "brand:ru": "36.6",
-        "brand:wikidata": "Q226889",
+        "brand:wikidata": "Q131746590",
         "healthcare": "pharmacy",
         "name": "36.6",
         "name:en": "36.6",
@@ -175,8 +175,10 @@
     },
     {
       "displayName": "Allied Pharmacies",
-      "id": "alliedpharmacy-c9f407",
-      "locationSet": {"include": ["gb-eng"]},
+      "id": "alliedpharmacy-453661",
+      "locationSet": {
+        "include": ["gb-eng", "gb-wls"]
+      },
       "preserveTags": ["^name"],
       "tags": {
         "amenity": "pharmacy",
@@ -226,9 +228,20 @@
     },
     {
       "displayName": "Alphega Pharmacy",
-      "id": "alphegapharmacy-4d3705",
+      "id": "alphegapharmacy-7f7034",
       "locationSet": {
-        "include": ["gb-lon.geojson"]
+        "include": [
+          "cz",
+          "de",
+          "es",
+          "fx",
+          "gb",
+          "it",
+          "nl",
+          "pt",
+          "ro",
+          "tr"
+        ]
       },
       "preserveTags": ["^name"],
       "tags": {
@@ -1266,6 +1279,19 @@
       }
     },
     {
+      "displayName": "Družstvo lekární",
+      "id": "druzstvolekarni-f39a0c",
+      "locationSet": {"include": ["sk"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Družstvo lekární",
+        "brand:wikidata": "Q136759269",
+        "healthcare": "pharmacy",
+        "name": "Družstvo lekární"
+      }
+    },
+    {
       "displayName": "Duane Reade",
       "id": "duanereade-3ab288",
       "locationSet": {"include": ["us"]},
@@ -1983,6 +2009,26 @@
       }
     },
     {
+      "displayName": "Giant Eagle Pharmacy",
+      "id": "gianteaglepharmacy-abe2e3",
+      "locationSet": {
+        "include": [
+          "us-in.geojson",
+          "us-md.geojson",
+          "us-oh.geojson",
+          "us-pa.geojson",
+          "us-wv.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Giant Eagle",
+        "brand:wikidata": "Q1522721",
+        "healthcare": "pharmacy",
+        "name": "Giant Eagle Pharmacy"
+      }
+    },
+    {
       "displayName": "Giant Pharmacy (Landover)",
       "id": "giantpharmacy-b6c0ea",
       "locationSet": {
@@ -2325,15 +2371,17 @@
       }
     },
     {
-      "displayName": "Jhoots Pharmacy",
-      "id": "jhootspharmacy-b98d4f",
+      "displayName": "JHL Pharmacies",
+      "id": "jhlpharmacies-b98d4f",
       "locationSet": {"include": ["gb"]},
+      "matchNames": ["jhoots", "jhoots pharmacy"],
+      "note": "Formally Jhoots Pharmacy",
       "tags": {
         "amenity": "pharmacy",
-        "brand": "Jhoots Pharmacy",
-        "brand:wikidata": "Q91440588",
+        "brand": "JHL Pharmacies",
+        "brand:wikidata": "Q139659869",
         "healthcare": "pharmacy",
-        "name": "Jhoots Pharmacy"
+        "name": "JHL Pharmacies"
       }
     },
     {
@@ -2419,6 +2467,20 @@
         "brand:wikidata": "Q91301346",
         "healthcare": "pharmacy",
         "name": "Lafayette"
+      }
+    },
+    {
+      "displayName": "Lekáreň Partner",
+      "id": "lekarenpartner-f39a0c",
+      "locationSet": {"include": ["sk"]},
+      "matchNames": ["partner"],
+      "preserveTags": ["^name"],
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Lekáreň Partner",
+        "brand:wikidata": "Q136761929",
+        "healthcare": "pharmacy",
+        "name": "Lekáreň Partner"
       }
     },
     {
@@ -3193,15 +3255,16 @@
       }
     },
     {
-      "displayName": "PLUS LEKÁREŇ",
+      "displayName": "Plus Lekáreň",
       "id": "pluslekaren-f39a0c",
       "locationSet": {"include": ["sk"]},
+      "preserveTags": ["^name"],
       "tags": {
         "amenity": "pharmacy",
-        "brand": "PLUS LEKÁREŇ",
+        "brand": "Plus Lekáreň",
         "brand:wikidata": "Q108369059",
         "healthcare": "pharmacy",
-        "name": "PLUS LEKÁREŇ"
+        "name": "Plus Lekáreň"
       }
     },
     {
@@ -3838,6 +3901,19 @@
         "brand": "totalhealth Pharmacy",
         "brand:wikidata": "Q123165909",
         "healthcare": "pharmacy"
+      }
+    },
+    {
+      "displayName": "Trio lekáreň",
+      "id": "triolekaren-f39a0c",
+      "locationSet": {"include": ["sk"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Trio lekáreň",
+        "brand:wikidata": "Q136761486",
+        "healthcare": "pharmacy",
+        "name": "Trio lekáreň"
       }
     },
     {
@@ -5229,6 +5305,19 @@
       }
     },
     {
+      "displayName": "Самсон-Фарма",
+      "id": "samsonpharma-288c27",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Самсон-Фарма",
+        "brand:wikidata": "Q19911073",
+        "healthcare": "pharmacy",
+        "name": "Самсон-Фарма",
+        "name:en": "Samson-Pharma"
+      }
+    },
+    {
       "displayName": "Санита",
       "id": "sanita-768624",
       "locationSet": {"include": ["bg"]},
@@ -5311,6 +5400,19 @@
         "brand:wikidata": "Q109717665",
         "healthcare": "pharmacy",
         "name": "Столички"
+      }
+    },
+    {
+      "displayName": "Столичные аптеки",
+      "id": "stolichnyeapteki-288c27",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Столичные аптеки",
+        "brand:wikidata": "Q139555187",
+        "healthcare": "pharmacy",
+        "name": "Столичные аптеки",
+        "name:en": "Stolichnye Apteki"
       }
     },
     {

@@ -949,6 +949,19 @@
       }
     },
     {
+      "displayName": "Twin Liquors",
+      "id": "twinliquors-a9ed82",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "brand": "Twin Liquors",
+        "brand:wikidata": "Q127691615",
+        "name": "Twin Liquors",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "Ultra Liquors",
       "id": "ultraliquors-cebc42",
       "locationSet": {"include": ["za"]},
@@ -1558,6 +1571,23 @@
         "name:en": "Alcorium",
         "name:ka": "ალკორიუმი",
         "name:ru": "Алкориум",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "ზღვა ლუდი",
+      "id": "zgvaludi-2cfee4",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "brand": "ზღვა ლუდი",
+        "brand:en": "Zgva Ludi",
+        "brand:ka": "ზღვა ლუდი",
+        "brand:ru": "Згва Луди",
+        "brand:wikidata": "Q136806338",
+        "name": "ზღვა ლუდი",
+        "name:en": "Zgva Ludi",
+        "name:ka": "ზღვა ლუდი",
+        "name:ru": "Згва Луди",
         "shop": "alcohol"
       }
     },

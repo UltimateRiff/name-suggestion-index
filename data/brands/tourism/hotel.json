@@ -1622,6 +1622,19 @@
       }
     },
     {
+      "displayName": "H-Hotels",
+      "id": "hhotels-bfd9c3",
+      "locationSet": {
+        "include": ["at", "ch", "de", "fr", "hu"]
+      },
+      "tags": {
+        "brand": "H-Hotels",
+        "brand:wikidata": "Q23903628",
+        "name": "H-Hotels",
+        "tourism": "hotel"
+      }
+    },
+    {
       "displayName": "H10 Hotels",
       "id": "h10-779ccb",
       "locationSet": {"include": ["001"]},
@@ -3040,6 +3053,17 @@
       }
     },
     {
+      "displayName": "Postillion Hotels",
+      "id": "postillionhotels-a4f814",
+      "locationSet": {"include": ["nl"]},
+      "tags": {
+        "brand": "Postillion Hotels",
+        "brand:wikidata": "Q4754837",
+        "name": "Postillion Hotels",
+        "tourism": "hotel"
+      }
+    },
+    {
       "displayName": "Pousadas de Portugal",
       "id": "pousadasdeportugal-599262",
       "locationSet": {"include": ["pt"]},
@@ -3204,7 +3228,7 @@
     },
     {
       "displayName": "Raffles",
-      "id": "raffles-771760",
+      "id": "raffles-1524a5",
       "locationSet": {
         "include": [
           "ae",
@@ -3219,7 +3243,6 @@
           "ph",
           "pl",
           "qa",
-          "ru",
           "sa",
           "sc",
           "sg",
@@ -4689,6 +4712,21 @@
         "name": "アパホテル",
         "name:en": "APA Hotel",
         "name:ja": "アパホテル",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "displayName": "ホテルルートイン",
+      "id": "hotelrouteinn-663ee5",
+      "locationSet": {"include": ["jp"]},
+      "matchNames": ["ルートイン"],
+      "tags": {
+        "brand": "ホテルルートイン",
+        "brand:en": "Hotel Route Inn",
+        "brand:ja": "ホテルルートイン",
+        "brand:wikidata": "Q11337912",
+        "name": "ホテルルートイン",
+        "name:ja": "ホテルルートイン",
         "tourism": "hotel"
       }
     },

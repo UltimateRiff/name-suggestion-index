@@ -216,6 +216,17 @@
       }
     },
     {
+      "displayName": "Drømmeland",
+      "id": "drommeland-211d3a",
+      "locationSet": {"include": ["dk"]},
+      "tags": {
+        "brand": "Drømmeland",
+        "brand:wikidata": "Q5306688",
+        "name": "Drømmeland",
+        "shop": "bed"
+      }
+    },
+    {
       "displayName": "Emma",
       "id": "emma-1dfb01",
       "locationSet": {"include": ["001"]},
@@ -343,22 +354,11 @@
       "displayName": "Mattress Firm",
       "id": "mattressfirm-032196",
       "locationSet": {"include": ["us"]},
+      "matchNames": ["mattress firm clearance"],
       "tags": {
         "brand": "Mattress Firm",
         "brand:wikidata": "Q6791878",
         "name": "Mattress Firm",
-        "shop": "bed"
-      }
-    },
-    {
-      "displayName": "Mattress Firm Clearance",
-      "id": "mattressfirmclearance-032196",
-      "locationSet": {"include": ["us"]},
-      "matchNames": ["sleepys"],
-      "tags": {
-        "brand": "Mattress Firm Clearance",
-        "brand:wikidata": "Q6791878",
-        "name": "Mattress Firm Clearance",
         "shop": "bed"
       }
     },

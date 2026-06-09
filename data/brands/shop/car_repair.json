@@ -439,7 +439,7 @@
       "locationSet": {"include": ["fx"]},
       "tags": {
         "brand": "Delko",
-        "brand:wikidata": "Q132021672",
+        "brand:wikidata": "Q24934757",
         "name": "Delko",
         "shop": "car_repair"
       }
@@ -1190,7 +1190,7 @@
     },
     {
       "displayName": "Premio",
-      "id": "premio-354273",
+      "id": "premio-4558e6",
       "locationSet": {
         "include": [
           "be",
@@ -1202,7 +1202,6 @@
           "nl",
           "pl",
           "ro",
-          "ru",
           "sk"
         ]
       },
@@ -1328,7 +1327,7 @@
       ],
       "tags": {
         "brand": "Service King",
-        "brand:wikidata": "Q121435028",
+        "brand:wikidata": "Q7455694",
         "name": "Service King",
         "service:vehicle:body_repair": "yes",
         "shop": "car_repair"
@@ -1466,7 +1465,8 @@
         "brand": "Super Dæk Service",
         "brand:wikidata": "Q110510630",
         "name": "Super Dæk Service",
-        "shop": "car_repair"
+        "shop": "car_repair",
+        "short_name": "SDS"
       }
     },
     {

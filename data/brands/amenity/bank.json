@@ -5,6 +5,7 @@
       "generic": [
         "^(atm|bank|credit union)$",
         "^(银行|銀行)$",
+        "^caja rural$",
         "^cajero automatico bancared$",
         "^банк$",
         "^بانک$"
@@ -194,6 +195,17 @@
         "brand": "ABSA",
         "brand:wikidata": "Q58641733",
         "name": "ABSA"
+      }
+    },
+    {
+      "displayName": "Absa Bank Kenya",
+      "id": "absabankkenya-8efa9d",
+      "locationSet": {"include": ["ke"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Absa Bank Kenya",
+        "brand:wikidata": "Q4859963",
+        "name": "Absa Bank Kenya"
       }
     },
     {
@@ -557,6 +569,20 @@
       }
     },
     {
+      "displayName": "AL Sydbank",
+      "id": "alsydbank-9eeba7",
+      "locationSet": {
+        "include": ["de", "dk", "se"]
+      },
+      "matchNames": ["sydbank"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "AL Sydbank",
+        "brand:wikidata": "Q825159",
+        "name": "AL Sydbank"
+      }
+    },
+    {
       "displayName": "Ålandsbanken",
       "id": "alandsbanken-22526e",
       "locationSet": {"include": ["fi"]},
@@ -601,7 +627,7 @@
       "tags": {
         "amenity": "bank",
         "brand": "Allahabad Bank",
-        "brand:wikidata": "Q2003789",
+        "brand:wikidata": "Q2018840",
         "name": "Allahabad Bank"
       }
     },
@@ -927,7 +953,7 @@
         "brand": "Arab African International Bank",
         "brand:ar": "البنك العربي الإفريقي الدولي",
         "brand:en": "Arab African International Bank",
-        "brand:wikidata": "Q126391861",
+        "brand:wikidata": "Q12184644",
         "name": "Arab African International Bank",
         "name:ar": "البنك العربي الإفريقي الدولي",
         "name:en": "Arab African International Bank"
@@ -1331,7 +1357,7 @@
       "tags": {
         "amenity": "bank",
         "brand": "Bam",
-        "brand:wikidata": "Q129652114",
+        "brand:wikidata": "Q5718037",
         "name": "Bam",
         "official_name": "Banco Agromercantil de Guatemala"
       }
@@ -4001,8 +4027,13 @@
     },
     {
       "displayName": "Berliner Volksbank",
-      "id": "berlinervolksbank-1180cf",
-      "locationSet": {"include": ["de"]},
+      "id": "berlinervolksbank-6b40f4",
+      "locationSet": {
+        "include": [
+          "de-bb.geojson",
+          "de-be.geojson"
+        ]
+      },
       "tags": {
         "amenity": "bank",
         "brand": "Berliner Volksbank",
@@ -4305,18 +4336,6 @@
       }
     },
     {
-      "displayName": "BNP Paribas Bank Polska",
-      "id": "bnpparibaspolska-68054b",
-      "locationSet": {"include": ["pl"]},
-      "matchNames": ["bgż", "bgż bnp paribas"],
-      "tags": {
-        "amenity": "bank",
-        "brand": "BNP Paribas Bank Polska",
-        "brand:wikidata": "Q20744004",
-        "name": "BNP Paribas Polska"
-      }
-    },
-    {
       "displayName": "BNP Paribas El Djazaïr",
       "id": "bnpparibaseldjazair-47c9bd",
       "locationSet": {"include": ["dz"]},
@@ -4335,6 +4354,24 @@
         "brand": "BNP Paribas Fortis",
         "brand:wikidata": "Q796827",
         "name": "BNP Paribas Fortis"
+      }
+    },
+    {
+      "displayName": "BNP Paribas Polska",
+      "id": "bnpparibas-68054b",
+      "locationSet": {"include": ["pl"]},
+      "matchNames": [
+        "bgż",
+        "bgż bnp paribas",
+        "bnp paribas bank polska"
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "BNP Paribas",
+        "brand:wikidata": "Q499707",
+        "name": "BNP Paribas",
+        "operator": "BNP Paribas Polska",
+        "operator:wikidata": "Q20744004"
       }
     },
     {
@@ -4736,6 +4773,25 @@
       }
     },
     {
+      "displayName": "Caixa Rural Galega",
+      "id": "caixaruralgalega-349aaf",
+      "locationSet": {
+        "include": [
+          "es-c.geojson",
+          "es-lu.geojson",
+          "es-or.geojson",
+          "es-po.geojson"
+        ]
+      },
+      "matchNames": ["caja rural gallega"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Caixa Rural Galega",
+        "brand:wikidata": "Q12384941",
+        "name": "Caixa Rural Galega"
+      }
+    },
+    {
       "displayName": "Caixabank (España)",
       "id": "caixabank-ce59ab",
       "locationSet": {"include": ["es"]},
@@ -4758,17 +4814,6 @@
       }
     },
     {
-      "displayName": "Caja Rural",
-      "id": "cajarural-ce59ab",
-      "locationSet": {"include": ["es"]},
-      "tags": {
-        "amenity": "bank",
-        "brand": "Caja Rural",
-        "brand:wikidata": "Q3649971",
-        "name": "Caja Rural"
-      }
-    },
-    {
       "displayName": "Caja Rural de Aragón",
       "id": "cajaruraldearagon-ce59ab",
       "locationSet": {"include": ["es"]},
@@ -4778,6 +4823,26 @@
         "brand": "Caja Rural de Aragón",
         "brand:wikidata": "Q5719155",
         "name": "Caja Rural de Aragón"
+      }
+    },
+    {
+      "displayName": "Caja Rural de Asturias",
+      "id": "cajaruraldeasturias-8c8141",
+      "locationSet": {
+        "include": [
+          "es-m.geojson",
+          "es-o.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "Caja Rural de Asturias",
+        "brand:ast": "Caxa Rural d'Asturies",
+        "brand:es": "Caja Rural de Asturias",
+        "brand:wikidata": "Q5739398",
+        "name": "Caja Rural de Asturias",
+        "name:ast": "Caxa Rural d'Asturies",
+        "name:es": "Caja Rural de Asturias"
       }
     },
     {
@@ -5791,6 +5856,17 @@
       }
     },
     {
+      "displayName": "Cooperative Bank of Kenya",
+      "id": "cooperativebankofkenya-8efa9d",
+      "locationSet": {"include": ["ke"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Cooperative Bank of Kenya",
+        "brand:wikidata": "Q5167875",
+        "name": "Cooperative Bank of Kenya"
+      }
+    },
+    {
       "displayName": "Coventry Building Society",
       "id": "coventrybuildingsociety-e1e9d0",
       "locationSet": {"include": ["gb"]},
@@ -5968,6 +6044,20 @@
         "brand": "Credit Suisse",
         "brand:wikidata": "Q372657",
         "name": "Credit Suisse"
+      }
+    },
+    {
+      "displayName": "Credit Union of Texas",
+      "id": "creditunionoftexas-718014",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "Credit Union of Texas",
+        "brand:short": "CUTX",
+        "brand:wikidata": "Q138873726",
+        "name": "Credit Union of Texas"
       }
     },
     {
@@ -7132,11 +7222,13 @@
         "1st interstate",
         "1st interstate bancsystem",
         "1st interstate bank",
-        "first interstate"
+        "first interstate",
+        "first interstate bancsystem",
+        "great western bank"
       ],
       "tags": {
         "amenity": "bank",
-        "brand": "First Interstate BancSystem",
+        "brand": "First Interstate Bank",
         "brand:wikidata": "Q5453107",
         "name": "First Interstate Bank"
       }
@@ -7242,17 +7334,6 @@
         "brand": "First Neighborhood Bank",
         "brand:wikidata": "Q130383275",
         "name": "First Neighborhood Bank"
-      }
-    },
-    {
-      "displayName": "First Republic Bank",
-      "id": "firstrepublicbank-ea2e2d",
-      "locationSet": {"include": ["us"]},
-      "tags": {
-        "amenity": "bank",
-        "brand": "First Republic Bank",
-        "brand:wikidata": "Q192314",
-        "name": "First Republic Bank"
       }
     },
     {
@@ -7497,6 +7578,41 @@
       }
     },
     {
+      "displayName": "Frankfurter Sparkasse",
+      "id": "frankfurtersparkasse-9ffcae",
+      "locationSet": {
+        "include": ["de-he.geojson"]
+      },
+      "matchNames": ["sparkasse frankfurt"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Frankfurter Sparkasse",
+        "brand:wikidata": "Q1445030",
+        "name": "Frankfurter Sparkasse",
+        "short_name": "Fraspa"
+      }
+    },
+    {
+      "displayName": "Frankfurter Volksbank",
+      "id": "frankfurtervolksbank-e7a309",
+      "locationSet": {
+        "include": [
+          "de-by.geojson",
+          "de-he.geojson"
+        ]
+      },
+      "matchNames": [
+        "frankfurter volksbank rhein/main",
+        "volksbank frankfurt"
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Frankfurter Volksbank",
+        "brand:wikidata": "Q1445057",
+        "name": "Frankfurter Volksbank"
+      }
+    },
+    {
       "displayName": "Freedom Bank",
       "id": "freedombank-033b31",
       "locationSet": {"include": ["kz"]},
@@ -7551,7 +7667,7 @@
       "tags": {
         "amenity": "bank",
         "brand": "Galicia Más",
-        "brand:wikidata": "Q5414064",
+        "brand:wikidata": "Q130642790",
         "name": "Galicia Más"
       }
     },
@@ -7685,17 +7801,6 @@
       }
     },
     {
-      "displayName": "Great Western Bank",
-      "id": "greatwesternbank-ea2e2d",
-      "locationSet": {"include": ["us"]},
-      "tags": {
-        "amenity": "bank",
-        "brand": "Great Western Bank",
-        "brand:wikidata": "Q5600185",
-        "name": "Great Western Bank"
-      }
-    },
-    {
       "displayName": "GreenState Credit Union",
       "id": "greenstatecreditunion-9a0c47",
       "locationSet": {
@@ -7713,17 +7818,8 @@
     },
     {
       "displayName": "Groupama",
-      "id": "groupama-bfb652",
-      "locationSet": {
-        "include": [
-          "fr",
-          "gr",
-          "hu",
-          "it",
-          "ro",
-          "sk"
-        ]
-      },
+      "id": "groupama-964a89",
+      "locationSet": {"include": ["fr", "it"]},
       "tags": {
         "amenity": "bank",
         "brand": "Groupama",
@@ -7856,8 +7952,14 @@
     },
     {
       "displayName": "Hamburger Sparkasse",
-      "id": "hamburgersparkasse-1180cf",
-      "locationSet": {"include": ["de"]},
+      "id": "hamburgersparkasse-6fe669",
+      "locationSet": {
+        "include": [
+          "de-hh.geojson",
+          "de-ni.geojson",
+          "de-sh.geojson"
+        ]
+      },
       "tags": {
         "amenity": "bank",
         "brand": "Hamburger Sparkasse",
@@ -8086,6 +8188,19 @@
         "brand": "Home Credit Bank",
         "brand:wikidata": "Q115575403",
         "name": "Home Credit Bank"
+      }
+    },
+    {
+      "displayName": "Home Federal Bank",
+      "id": "homefederalbankoftennessee-71bbfa",
+      "locationSet": {
+        "include": ["us-tn.geojson"]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "Home Federal Bank of Tennessee",
+        "brand:wikidata": "Q140000494",
+        "name": "Home Federal Bank of Tennessee"
       }
     },
     {
@@ -9625,8 +9740,10 @@
     },
     {
       "displayName": "Mittelbrandenburgische Sparkasse",
-      "id": "mittelbrandenburgischesparkasse-1180cf",
-      "locationSet": {"include": ["de"]},
+      "id": "mittelbrandenburgischesparkasse-49b699",
+      "locationSet": {
+        "include": ["de-bb.geojson"]
+      },
       "tags": {
         "amenity": "bank",
         "brand": "Mittelbrandenburgische Sparkasse",
@@ -9802,6 +9919,24 @@
         "brand": "NASA Federal Credit Union",
         "brand:wikidata": "Q6952409",
         "name": "NASA Federal Credit Union"
+      }
+    },
+    {
+      "displayName": "Nassauische Sparkasse",
+      "id": "nassauischesparkasse-60f681",
+      "locationSet": {
+        "include": [
+          "de-he.geojson",
+          "de-rp.geojson"
+        ]
+      },
+      "matchNames": ["nassauer sparkasse"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Nassauische Sparkasse",
+        "brand:wikidata": "Q1751833",
+        "name": "Nassauische Sparkasse",
+        "short_name": "Naspa"
       }
     },
     {
@@ -10903,6 +11038,17 @@
       }
     },
     {
+      "displayName": "PostFinance",
+      "id": "postfinance-74b036",
+      "locationSet": {"include": ["ch"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "PostFinance",
+        "brand:wikidata": "Q449233",
+        "name": "PostFinance"
+      }
+    },
+    {
       "displayName": "Poštová banka",
       "id": "postovabanka-6a1dfb",
       "locationSet": {"include": ["sk"]},
@@ -11440,6 +11586,17 @@
       }
     },
     {
+      "displayName": "Raiffeisen stavební spořitelna",
+      "id": "raiffeisenstavebnisporitelna-7d13c0",
+      "locationSet": {"include": ["cz"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Raiffeisen stavební spořitelna",
+        "brand:wikidata": "Q12048738",
+        "name": "Raiffeisen stavební spořitelna"
+      }
+    },
+    {
       "displayName": "Raiffeisenbank (Česko)",
       "id": "raiffeisenbank-7d13c0",
       "locationSet": {"include": ["cz"]},
@@ -11597,7 +11754,7 @@
       "tags": {
         "amenity": "bank",
         "brand": "RegioBank",
-        "brand:wikidata": "Q2084143",
+        "brand:wikidata": "Q2115864",
         "name": "RegioBank"
       }
     },
@@ -11694,7 +11851,7 @@
       "tags": {
         "amenity": "bank",
         "brand": "Republic Bank",
-        "brand:wikidata": "Q16976594",
+        "brand:wikidata": "Q55316482",
         "name": "Republic Bank"
       }
     },
@@ -12194,6 +12351,22 @@
       }
     },
     {
+      "displayName": "Security First Bank (Nebraska and South Dakota)",
+      "id": "securityfirstbank-9d6bb6",
+      "locationSet": {
+        "include": [
+          "us-ne.geojson",
+          "us-sd.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "Security First Bank",
+        "brand:wikidata": "Q139972572",
+        "name": "Security First Bank"
+      }
+    },
+    {
       "displayName": "Security Service Federal Credit Union",
       "id": "securityservicefederalcreditunion-ea2e2d",
       "locationSet": {"include": ["us"]},
@@ -12339,6 +12512,21 @@
       }
     },
     {
+      "displayName": "Shinhan Bank",
+      "id": "shinhanbank-ea2e2d",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Shinhan Bank",
+        "brand:en": "Shinhan Bank",
+        "brand:ko": "신한은행",
+        "brand:wikidata": "Q487230",
+        "name": "Shinhan Bank",
+        "name:en": "Shinhan Bank",
+        "name:ko": "신한은행"
+      }
+    },
+    {
       "displayName": "Shore United Bank",
       "id": "shoreunitedbank-57aa5c",
       "locationSet": {
@@ -12411,6 +12599,17 @@
       }
     },
     {
+      "displayName": "Skjern Bank",
+      "id": "skjernbank-cc27e5",
+      "locationSet": {"include": ["dk"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Skjern Bank",
+        "brand:wikidata": "Q43523656",
+        "name": "Skjern Bank"
+      }
+    },
+    {
       "displayName": "Slatinska banka",
       "id": "slatinskabanka-6f3d3b",
       "locationSet": {"include": ["hr"]},
@@ -12452,7 +12651,7 @@
       "tags": {
         "amenity": "bank",
         "brand": "SNS Bank",
-        "brand:wikidata": "Q2084143",
+        "brand:wikidata": "Q135338857",
         "name": "SNS Bank"
       }
     },
@@ -12749,6 +12948,30 @@
       }
     },
     {
+      "displayName": "Sparekassen Danmark",
+      "id": "sparekassendanmark-cc27e5",
+      "locationSet": {"include": ["dk"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Sparekassen Danmark",
+        "brand:wikidata": "Q108608328",
+        "name": "Sparekassen Danmark",
+        "operator": "Sparekassen Danmark",
+        "operator:wikidata": "Q108608328"
+      }
+    },
+    {
+      "displayName": "Sparekassen Kronjylland",
+      "id": "sparekassenkronjylland-cc27e5",
+      "locationSet": {"include": ["dk"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Sparekassen Kronjylland",
+        "brand:wikidata": "Q12336588",
+        "name": "Sparekassen Kronjylland"
+      }
+    },
+    {
       "displayName": "Sparkasse - Cassa di Risparmio",
       "id": "sparkassecassadirisparmio-7b36b5",
       "locationSet": {"include": ["it"]},
@@ -13036,19 +13259,6 @@
       }
     },
     {
-      "displayName": "Sydbank",
-      "id": "sydbank-9eeba7",
-      "locationSet": {
-        "include": ["de", "dk", "se"]
-      },
-      "tags": {
-        "amenity": "bank",
-        "brand": "Sydbank",
-        "brand:wikidata": "Q825159",
-        "name": "Sydbank"
-      }
-    },
-    {
       "displayName": "Syndicate Bank",
       "id": "syndicatebank-34f411",
       "locationSet": {"include": ["in"]},
@@ -13224,6 +13434,19 @@
       }
     },
     {
+      "displayName": "Tennessee State Bank",
+      "id": "tennesseestatebank-71bbfa",
+      "locationSet": {
+        "include": ["us-tn.geojson"]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "Tennessee State Bank",
+        "brand:wikidata": "Q140002582",
+        "name": "Tennessee State Bank"
+      }
+    },
+    {
       "displayName": "Tesoro",
       "id": "tesoro-0269b0",
       "locationSet": {"include": ["ve"]},
@@ -13344,6 +13567,19 @@
         "brand": "TPBank",
         "brand:wikidata": "Q7801033",
         "name": "TPBank"
+      }
+    },
+    {
+      "displayName": "Triodos Bank",
+      "id": "triodosbank-e9c49b",
+      "locationSet": {
+        "include": ["be", "de", "es", "gb", "nl"]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "Triodos Bank",
+        "brand:wikidata": "Q688452",
+        "name": "Triodos Bank"
       }
     },
     {
@@ -13754,6 +13990,22 @@
       }
     },
     {
+      "displayName": "Unified Bank",
+      "id": "unifiedbank-417e5c",
+      "locationSet": {
+        "include": [
+          "us-oh.geojson",
+          "us-wv.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "Unified Bank",
+        "brand:wikidata": "Q139989729",
+        "name": "Unified Bank"
+      }
+    },
+    {
       "displayName": "Union Bank (USA)",
       "id": "unionbank-ea2e2d",
       "locationSet": {"include": ["us"]},
@@ -14113,6 +14365,19 @@
       }
     },
     {
+      "displayName": "VeraBank",
+      "id": "verabank-718014",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "VeraBank",
+        "brand:wikidata": "Q139055613",
+        "name": "VeraBank"
+      }
+    },
+    {
       "displayName": "VIB",
       "id": "vib-a28d32",
       "locationSet": {"include": ["vn"]},
@@ -14229,8 +14494,10 @@
     },
     {
       "displayName": "Volksbank Köln Bonn eG",
-      "id": "volksbankkolnbonneg-1180cf",
-      "locationSet": {"include": ["de"]},
+      "id": "volksbankkolnbonneg-a03017",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
       "tags": {
         "amenity": "bank",
         "brand": "Volksbank Köln Bonn eG",
@@ -14253,19 +14520,6 @@
       }
     },
     {
-      "displayName": "Všeobecná úverová banka",
-      "id": "vseobecnauverovabanka-6a1dfb",
-      "locationSet": {"include": ["sk"]},
-      "matchNames": ["vub bank", "vub banka"],
-      "tags": {
-        "amenity": "bank",
-        "brand": "Všeobecná úverová banka",
-        "brand:short": "VÚB",
-        "brand:wikidata": "Q12778981",
-        "name": "Všeobecná úverová banka"
-      }
-    },
-    {
       "displayName": "VTB Armenia",
       "id": "vtb-9c44ae",
       "locationSet": {"include": ["am"]},
@@ -14280,6 +14534,22 @@
         "name:en": "VTB",
         "name:hy": "ՎՏԲ",
         "name:ru": "ВТБ"
+      }
+    },
+    {
+      "displayName": "VÚB banka",
+      "id": "vubbanka-6a1dfb",
+      "locationSet": {"include": ["sk"]},
+      "matchNames": [
+        "vseobecna uverova banka",
+        "vub bank"
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "VÚB banka",
+        "brand:short": "VÚB",
+        "brand:wikidata": "Q12778981",
+        "name": "VÚB banka"
       }
     },
     {
@@ -15070,7 +15340,7 @@
         "brand": "Возрождение",
         "brand:en": "Vozrozhdenie Bank",
         "brand:ru": "Возрождение",
-        "brand:wikidata": "Q1549389",
+        "brand:wikidata": "Q4114952",
         "name": "Возрождение",
         "name:en": "Vozrozhdenie Bank",
         "name:ru": "Возрождение"
@@ -15687,7 +15957,7 @@
       "tags": {
         "amenity": "bank",
         "brand": "РНКБ",
-        "brand:wikidata": "Q1549389",
+        "brand:wikidata": "Q16912944",
         "name": "РНКБ"
       }
     },
@@ -16003,7 +16273,7 @@
         "brand:be": "Франсабанк",
         "brand:en": "Fransabank",
         "brand:ru": "Франсабанк",
-        "brand:wikidata": "Q3919652",
+        "brand:wikidata": "Q13033234",
         "name": "Франсабанк",
         "name:be": "Франсабанк",
         "name:en": "Fransabank",
@@ -17588,6 +17858,21 @@
       }
     },
     {
+      "displayName": "みずほ信託銀行",
+      "id": "mizuhotrustandbanking-d7a9e7",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "みずほ信託銀行",
+        "brand:en": "Mizuho Trust & Banking",
+        "brand:ja": "みずほ信託銀行",
+        "brand:wikidata": "Q6884801",
+        "name": "みずほ信託銀行",
+        "name:en": "Mizuho Trust & Banking",
+        "name:ja": "みずほ信託銀行"
+      }
+    },
+    {
       "displayName": "みずほ銀行",
       "id": "mizuhobank-d7a9e7",
       "locationSet": {"include": ["jp"]},
@@ -18820,6 +19105,26 @@
         "name:nan-Latn-pehoeji": "Kok-thài Sè-hoâ Siong-gia̍p Gîn-hâng",
         "name:nan-Latn-tailo": "Kok-thài Sè-huâ Siong-gia̍p Gîn-hâng",
         "name:zh": "國泰世華商業銀行"
+      }
+    },
+    {
+      "displayName": "城南信用金庫",
+      "id": "johnanshinkinbank-db45bf",
+      "locationSet": {
+        "include": [
+          "jp-13.geojson",
+          "jp-14.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "城南信用金庫",
+        "brand:en": "Johnan Shinkin Bank",
+        "brand:ja": "城南信用金庫",
+        "brand:wikidata": "Q11426028",
+        "name": "城南信用金庫",
+        "name:en": "Johnan Shinkin Bank",
+        "name:ja": "城南信用金庫"
       }
     },
     {

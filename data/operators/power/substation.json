@@ -2493,23 +2493,25 @@
     },
     {
       "displayName": "DPMB",
-      "id": "dpmb-3d0fe0",
+      "id": "dopravnipodnikmestabrna-3d0fe0",
       "locationSet": {
         "include": ["cz-64.geojson"]
       },
       "tags": {
-        "operator": "DPMB",
+        "operator": "Dopravní podnik města Brna",
+        "operator:short": "DPMB",
         "operator:wikidata": "Q3700534",
         "power": "substation"
       }
     },
     {
       "displayName": "DPP",
-      "id": "dpp-fd39e1",
+      "id": "dopravnipodnikhlmprahy-fd39e1",
       "locationSet": {"include": ["cz"]},
       "matchNames": ["cz:dpp"],
       "tags": {
-        "operator": "DPP",
+        "operator": "Dopravní podnik hl. m. Prahy",
+        "operator:short": "DPP",
         "operator:wikidata": "Q381100",
         "power": "substation"
       }
@@ -3396,7 +3398,7 @@
       "locationSet": {"include": ["br"]},
       "tags": {
         "operator": "Eletropaulo",
-        "operator:wikidata": "Q23777954",
+        "operator:wikidata": "Q48854882",
         "power": "substation"
       }
     },
@@ -3683,7 +3685,7 @@
       "locationSet": {"include": ["pe"]},
       "tags": {
         "operator": "Enel Distribución Perú",
-        "operator:wikidata": "Q131364674",
+        "operator:wikidata": "Q72718459",
         "power": "substation"
       }
     },
@@ -5398,7 +5400,7 @@
       "locationSet": {"include": ["no"]},
       "tags": {
         "operator": "Glitre Energi",
-        "operator:wikidata": "Q4355084",
+        "operator:wikidata": "Q5376857",
         "power": "substation"
       }
     },
@@ -8298,7 +8300,7 @@
       },
       "tags": {
         "operator": "Ohio Power",
-        "operator:wikidata": "Q109015295",
+        "operator:wikidata": "Q115902499",
         "power": "substation"
       }
     },
@@ -8918,11 +8920,12 @@
     },
     {
       "displayName": "PRE",
-      "id": "pre-fd39e1",
+      "id": "prazskaenergetika-fd39e1",
       "locationSet": {"include": ["cz"]},
       "matchNames": ["cz:pre"],
       "tags": {
-        "operator": "PRE",
+        "operator": "Pražská energetika",
+        "operator:short": "PRE",
         "operator:wikidata": "Q15870812",
         "power": "substation"
       }
@@ -8957,7 +8960,7 @@
       ],
       "tags": {
         "operator": "Progress Energy",
-        "operator:wikidata": "Q1264404",
+        "operator:wikidata": "Q2112219",
         "power": "substation"
       }
     },
@@ -11541,6 +11544,10 @@
       "locationSet": {
         "include": ["au-nsw.geojson"]
       },
+      "matchNames": [
+        "tfnsw",
+        "transport for nsw"
+      ],
       "tags": {
         "operator": "Sydney Trains",
         "operator:wikidata": "Q7660181",
@@ -12685,7 +12692,7 @@
       },
       "tags": {
         "operator": "VEW",
-        "operator:wikidata": "Q138133",
+        "operator:wikidata": "Q1642431",
         "power": "substation"
       }
     },
@@ -12732,7 +12739,7 @@
       },
       "tags": {
         "operator": "Virginia Electric & Power Company",
-        "operator:wikidata": "Q677464",
+        "operator:wikidata": "Q117834539",
         "power": "substation"
       }
     },

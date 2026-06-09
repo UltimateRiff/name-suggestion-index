@@ -406,14 +406,24 @@
     },
     {
       "displayName": "electrip",
-      "id": "electrip-2e2ce9",
+      "id": "electrip-7d70e9",
       "locationSet": {
-        "include": ["bg", "gr", "hr", "it", "tr"]
+        "include": ["gr", "hr", "it", "tr"]
       },
       "tags": {
         "amenity": "charging_station",
         "brand": "electrip",
         "brand:wikidata": "Q133980622"
+      }
+    },
+    {
+      "displayName": "electrip (Bulgaria)",
+      "id": "electrip-59a92d",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "electrip",
+        "brand:wikidata": "Q139373328"
       }
     },
     {
@@ -437,6 +447,27 @@
         "name": "Elektro Profi",
         "operator": "Elektro Profi Mobility Kft.",
         "operator:wikidata": "Q137696853"
+      }
+    },
+    {
+      "displayName": "eMotion",
+      "id": "emotion-d44228",
+      "locationSet": {
+        "include": [
+          "at",
+          "bg",
+          "cz",
+          "hu",
+          "ro",
+          "rs",
+          "sk"
+        ]
+      },
+      "matchNames": ["omv emotion"],
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "eMotion",
+        "brand:wikidata": "Q139071415"
       }
     },
     {
@@ -506,6 +537,32 @@
         "brand:wikidata": "Q126652985",
         "operator": "EV Connect",
         "operator:wikidata": "Q126652985"
+      }
+    },
+    {
+      "displayName": "EV Georgia",
+      "id": "evgeorgia-dfa5ee",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "EV Georgia",
+        "brand:en": "EV Georgia",
+        "brand:wikidata": "Q131470037",
+        "name": "EV Georgia",
+        "name:en": "EV Georgia"
+      }
+    },
+    {
+      "displayName": "EV Power (Georgia)",
+      "id": "evpower-dfa5ee",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "EV Power",
+        "brand:en": "EV Power",
+        "brand:wikidata": "Q138339918",
+        "name": "EV Power",
+        "name:en": "EV Power"
       }
     },
     {
@@ -850,6 +907,19 @@
         "amenity": "charging_station",
         "brand": "Loop",
         "brand:wikidata": "Q135741953"
+      }
+    },
+    {
+      "displayName": "MartEV",
+      "id": "martev-dfa5ee",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "MartEV",
+        "brand:en": "MartEV",
+        "brand:wikidata": "Q138332705",
+        "name": "MartEV",
+        "name:en": "MartEV"
       }
     },
     {
@@ -1543,6 +1613,34 @@
       }
     },
     {
+      "displayName": "და-ტენე",
+      "id": "datene-dfa5ee",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "და-ტენე",
+        "brand:en": "Da-Tene",
+        "brand:ka": "და-ტენე",
+        "brand:wikidata": "Q138339944",
+        "name": "და-ტენე",
+        "name:en": "Da-Tene",
+        "name:ka": "და-ტენე"
+      }
+    },
+    {
+      "displayName": "ი-სპეის",
+      "id": "espace-dfa5ee",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ი-სპეის",
+        "brand:en": "E-Space",
+        "brand:wikidata": "Q131470036",
+        "name": "ი-სპეის",
+        "name:en": "E-Space"
+      }
+    },
+    {
       "displayName": "南方电网",
       "id": "southernpowergrid-07dd34",
       "locationSet": {"include": ["cn"]},
@@ -1655,6 +1753,24 @@
         "name": "特来电",
         "name:en": "Teld",
         "name:zh": "特来电"
+      }
+    },
+    {
+      "displayName": "理想超级充电站",
+      "id": "liautosupercharger-a352c2",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk", "mo"]
+      },
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "理想",
+        "brand:en": "Li Auto",
+        "brand:wikidata": "Q98139925",
+        "brand:zh": "理想",
+        "name": "理想超级充电站",
+        "name:en": "Li Auto Supercharger",
+        "name:zh": "理想超级充电站"
       }
     },
     {

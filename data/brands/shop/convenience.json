@@ -196,6 +196,7 @@
       "locationSet": {"include": ["tr"]},
       "tags": {
         "brand": "A101",
+        "brand:wikidata": "Q6034496",
         "name": "A101",
         "shop": "convenience"
       }
@@ -857,7 +858,7 @@
       },
       "tags": {
         "brand": "Big Red Stores",
-        "brand:wikidata": "Q3268010",
+        "brand:wikidata": "Q109648675",
         "name": "Big Red",
         "shop": "convenience"
       }
@@ -1837,6 +1838,23 @@
       }
     },
     {
+      "displayName": "Deli de Luca",
+      "id": "delideluca-2da37b",
+      "locationSet": {"include": ["no"]},
+      "matchTags": [
+        "amenity/fast_food",
+        "amenity/restaurant",
+        "shop/deli"
+      ],
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Deli de Luca",
+        "brand:wikidata": "Q11965047",
+        "name": "Deli de Luca",
+        "shop": "convenience"
+      }
+    },
+    {
       "displayName": "Delikatesy Centrum",
       "id": "delikatesycentrum-95f41b",
       "locationSet": {"include": ["pl"]},
@@ -1997,6 +2015,22 @@
         "brand": "Duchess",
         "brand:wikidata": "Q111698565",
         "name": "Duchess",
+        "shop": "convenience"
+      }
+    },
+    {
+      "displayName": "Duck Thru",
+      "id": "duckthru-977a71",
+      "locationSet": {
+        "include": [
+          "us-nc.geojson",
+          "us-va.geojson"
+        ]
+      },
+      "tags": {
+        "brand": "Duck Thru",
+        "brand:wikidata": "Q139631383",
+        "name": "Duck Thru",
         "shop": "convenience"
       }
     },
@@ -2209,7 +2243,7 @@
       "tags": {
         "brand": "Farm Stores",
         "brand:wikidata": "Q107124124",
-        "drive-through": "yes",
+        "drive_through": "yes",
         "name": "Farm Stores",
         "shop": "convenience"
       }
@@ -2902,7 +2936,7 @@
       "matchTags": ["shop/supermarket"],
       "tags": {
         "brand": "InCoop",
-        "brand:wikidata": "Q1129774",
+        "brand:wikidata": "Q131934414",
         "name": "InCoop",
         "shop": "convenience"
       }
@@ -3459,7 +3493,7 @@
       "locationSet": {"include": ["hr"]},
       "tags": {
         "brand": "Lonia",
-        "brand:wikidata": "Q65156084",
+        "brand:wikidata": "Q124364344",
         "name": "Lonia",
         "shop": "convenience"
       }
@@ -3689,6 +3723,17 @@
       "tags": {
         "brand": "Market \\ Xırdalan",
         "name": "Market \\ Xırdalan",
+        "shop": "convenience"
+      }
+    },
+    {
+      "displayName": "MarketVita Express",
+      "id": "marketvitaexpress-95f41b",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "MarketVita Express",
+        "brand:wikidata": "Q118958725",
+        "name": "MarketVita Express",
         "shop": "convenience"
       }
     },
@@ -3989,6 +4034,7 @@
       "displayName": "Minimart",
       "id": "minimart-854be4",
       "locationSet": {"include": ["bg"]},
+      "matchNames": ["минимарт"],
       "tags": {
         "brand": "Minimart",
         "brand:wikidata": "Q119168386",
@@ -4017,6 +4063,17 @@
         "brand": "Minit Mart",
         "brand:wikidata": "Q18154470",
         "name": "Minit Mart",
+        "shop": "convenience"
+      }
+    },
+    {
+      "displayName": "Minivita Market",
+      "id": "minivitamarket-95f41b",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Minivita Market",
+        "brand:wikidata": "Q119660457",
+        "name": "Minivita Market",
         "shop": "convenience"
       }
     },
@@ -4213,6 +4270,20 @@
       }
     },
     {
+      "displayName": "Nærkøb",
+      "id": "naerkob-f9ced2",
+      "locationSet": {"include": ["dk"]},
+      "matchNames": ["naerkoeb"],
+      "note": "preserve name as the brand is not primary visual identity of shops",
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Nærkøb",
+        "brand:wikidata": "Q138634124",
+        "name": "Nærkøb",
+        "shop": "convenience"
+      }
+    },
+    {
       "displayName": "Nasz Sklep",
       "id": "naszsklep-95f41b",
       "locationSet": {"include": ["pl"]},
@@ -4384,10 +4455,11 @@
     },
     {
       "displayName": "O!Save",
-      "id": "osave-fb2210",
-      "locationSet": {"include": ["ph"]},
+      "id": "osave-28d321",
+      "locationSet": {"include": ["id", "ph"]},
       "tags": {
         "brand": "O!Save",
+        "brand:wikidata": "Q137685864",
         "name": "O!Save",
         "shop": "convenience"
       }
@@ -4535,6 +4607,18 @@
         "brand": "One-O-One",
         "brand:wikidata": "Q131863290",
         "name": "One-O-One",
+        "shop": "convenience"
+      }
+    },
+    {
+      "displayName": "Organico",
+      "id": "organico-3015fb",
+      "locationSet": {"include": ["rs"]},
+      "tags": {
+        "brand": "Organico",
+        "brand:wikidata": "Q139601980",
+        "name": "Organico",
+        "organic": "only",
         "shop": "convenience"
       }
     },
@@ -5226,8 +5310,8 @@
     },
     {
       "displayName": "Scotmid",
-      "id": "scotmid-232829",
-      "locationSet": {"include": ["gb"]},
+      "id": "scotmid-8978c5",
+      "locationSet": {"include": ["gb-sct"]},
       "matchNames": ["scotmid co-operative"],
       "tags": {
         "brand": "Scotmid",
@@ -5402,7 +5486,7 @@
       "locationSet": {"include": ["es"]},
       "tags": {
         "brand": "Simply Basic",
-        "brand:wikidata": "Q2832081",
+        "brand:wikidata": "Q5643014",
         "name": "Simply Basic",
         "shop": "convenience"
       }
@@ -5413,7 +5497,7 @@
       "locationSet": {"include": ["es"]},
       "tags": {
         "brand": "Simply City",
-        "brand:wikidata": "Q2832081",
+        "brand:wikidata": "Q5643014",
         "name": "Simply City",
         "shop": "convenience"
       }
@@ -5424,7 +5508,7 @@
       "locationSet": {"include": ["es"]},
       "tags": {
         "brand": "Simply Store",
-        "brand:wikidata": "Q2832081",
+        "brand:wikidata": "Q5643014",
         "name": "Simply Store",
         "shop": "convenience"
       }
@@ -5879,6 +5963,17 @@
       }
     },
     {
+      "displayName": "Teo",
+      "id": "teo-60c7fe",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "brand": "Teo",
+        "brand:wikidata": "Q138941301",
+        "name": "Teo",
+        "shop": "convenience"
+      }
+    },
+    {
       "displayName": "Terno",
       "id": "terno-2496a5",
       "locationSet": {"include": ["sk"]},
@@ -5960,6 +6055,20 @@
       }
     },
     {
+      "displayName": "The Co-operative Food",
+      "id": "thecooperativefood-232829",
+      "issues": [11089, 11973, 12032],
+      "locationSet": {"include": ["gb"]},
+      "note": "The Co-operative Food is a brand used by multiple co-op operators, so use brand instead of operator to prevent iD clashes.",
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "The Co-operative Food",
+        "brand:wikidata": "Q107617274",
+        "name": "The Co-operative Food",
+        "shop": "convenience"
+      }
+    },
+    {
       "displayName": "Thorntons",
       "id": "thorntons-f1e40b",
       "locationSet": {"include": ["us"]},
@@ -6024,6 +6133,20 @@
         "brand": "Tommy",
         "brand:wikidata": "Q12643718",
         "name": "Tommy",
+        "shop": "convenience"
+      }
+    },
+    {
+      "displayName": "Tomony",
+      "id": "tomony-652b3e",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "brand": "FamilyMart",
+        "brand:en": "FamilyMart",
+        "brand:ja": "ファミリーマート",
+        "name": "Tomony",
+        "name:en": "Tomony",
+        "name:ja": "トモニー",
         "shop": "convenience"
       }
     },
@@ -6131,6 +6254,24 @@
       }
     },
     {
+      "displayName": "Trefa",
+      "id": "trefa-a7773e",
+      "locationSet": {"include": ["cz"]},
+      "matchNames": [
+        "supermarket trefa",
+        "trefa supermarket"
+      ],
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Trefa",
+        "brand:wikidata": "Q139412781",
+        "name": "Trefa",
+        "operator": "Jednota, spotřební družstvo České Budějovice",
+        "operator:wikidata": "Q58196204",
+        "shop": "convenience"
+      }
+    },
+    {
       "displayName": "Trgocentar",
       "id": "trgocentar-5b00ff",
       "locationSet": {"include": ["hr"]},
@@ -6147,6 +6288,17 @@
       "tags": {
         "brand": "Trgostil",
         "name": "Trgostil",
+        "shop": "convenience"
+      }
+    },
+    {
+      "displayName": "truenorth",
+      "id": "truenorth-f1e40b",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "truenorth",
+        "brand:wikidata": "Q127388548",
+        "name": "truenorth",
         "shop": "convenience"
       }
     },
@@ -6386,8 +6538,10 @@
     },
     {
       "displayName": "Viva Billa",
-      "id": "vivabilla-65ae8a",
-      "locationSet": {"include": ["cz", "sk"]},
+      "id": "vivabilla-e31089",
+      "locationSet": {
+        "include": ["at", "cz", "sk"]
+      },
       "matchTags": ["shop/supermarket"],
       "tags": {
         "brand": "Viva Billa",
@@ -6487,6 +6641,7 @@
       "displayName": "Welcome",
       "id": "welcome-232829",
       "locationSet": {"include": ["gb"]},
+      "preserveTags": ["^name"],
       "tags": {
         "brand": "Welcome",
         "brand:wikidata": "Q123004215",
@@ -6831,6 +6986,26 @@
       "tags": {
         "brand": "Ассорти-продукт",
         "name": "Ассорти-продукт",
+        "shop": "convenience"
+      }
+    },
+    {
+      "displayName": "АТБ-Маркет",
+      "id": "atbmarket-023e9c",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": [
+        "atb",
+        "атб",
+        "тов \"атб-маркет\""
+      ],
+      "tags": {
+        "brand": "АТБ-Маркет",
+        "brand:en": "ATB-Market",
+        "brand:uk": "АТБ-Маркет",
+        "brand:wikidata": "Q4054103",
+        "name": "АТБ-Маркет",
+        "name:en": "ATB-Market",
+        "name:uk": "АТБ-Маркет",
         "shop": "convenience"
       }
     },
@@ -7517,6 +7692,19 @@
       }
     },
     {
+      "displayName": "ЛотОК",
+      "id": "587825-023e9c",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": ["lotok"],
+      "matchTags": ["shop/supermarket"],
+      "tags": {
+        "brand": "ЛотОК",
+        "brand:wikidata": "Q117670659",
+        "name": "ЛотОК",
+        "shop": "convenience"
+      }
+    },
+    {
       "displayName": "Лукойл",
       "id": "lukoil-5a849f",
       "locationSet": {
@@ -7807,6 +7995,19 @@
       }
     },
     {
+      "displayName": "Около",
+      "id": "okolo-e33fbc",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "Около",
+        "brand:wikidata": "Q139555162",
+        "name": "Около",
+        "name:en": "Okolo",
+        "name:ru": "Около",
+        "shop": "convenience"
+      }
+    },
+    {
       "displayName": "Оптовичок",
       "id": "303083-023e9c",
       "locationSet": {"include": ["ua"]},
@@ -8006,6 +8207,18 @@
         "brand": "Сім23",
         "brand:wikidata": "Q107167415",
         "name": "Сім23",
+        "shop": "convenience"
+      }
+    },
+    {
+      "displayName": "Сімі",
+      "id": "04373c-023e9c",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": ["simi"],
+      "tags": {
+        "brand": "Сімі",
+        "brand:wikidata": "Q107167415",
+        "name": "Сімі",
         "shop": "convenience"
       }
     },
@@ -8228,6 +8441,19 @@
       }
     },
     {
+      "displayName": "Ярче!",
+      "id": "yarche-e33fbc",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "Ярче!",
+        "brand:wikidata": "Q102254456",
+        "name": "Ярче!",
+        "name:en": "Yarche!",
+        "name:ru": "Ярче!",
+        "shop": "convenience"
+      }
+    },
+    {
       "displayName": "ბელმარტი",
       "id": "belmart-3cb7c4",
       "locationSet": {"include": ["ge"]},
@@ -8241,6 +8467,23 @@
         "name:en": "Belmart",
         "name:ka": "ბელმარტი",
         "name:ru": "Белмарт",
+        "shop": "convenience"
+      }
+    },
+    {
+      "displayName": "ბელორუსული სახლი",
+      "id": "belarusianhouse-3cb7c4",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "brand": "ბელორუსული სახლი",
+        "brand:en": "Belarusian House",
+        "brand:ka": "ბელორუსული სახლი",
+        "brand:ru": "Беларуский Дом",
+        "brand:wikidata": "Q134732277",
+        "name": "ბელორუსული სახლი",
+        "name:en": "Belarusian House",
+        "name:ka": "ბელორუსული სახლი",
+        "name:ru": "Беларуский Дом",
         "shop": "convenience"
       }
     },
@@ -8400,10 +8643,12 @@
         "brand": "კალათა",
         "brand:en": "Kalata",
         "brand:ka": "კალათა",
+        "brand:ru": "Калата",
         "brand:wikidata": "Q133886762",
         "name": "კალათა",
         "name:en": "Kalata",
         "name:ka": "კალათა",
+        "name:ru": "Калата",
         "shop": "convenience"
       }
     },

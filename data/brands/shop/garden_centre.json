@@ -64,6 +64,7 @@
         "brand": "Botanic",
         "brand:wikidata": "Q2911642",
         "name": "Botanic",
+        "organic": "yes",
         "shop": "garden_centre"
       }
     },
@@ -233,6 +234,17 @@
       "tags": {
         "brand": "Plantasjen",
         "brand:wikidata": "Q10632989",
+        "shop": "garden_centre"
+      }
+    },
+    {
+      "displayName": "Plantorama",
+      "id": "plantorama-a67868",
+      "locationSet": {"include": ["dk"]},
+      "tags": {
+        "brand": "Plantorama",
+        "brand:wikidata": "Q12331952",
+        "name": "Plantorama",
         "shop": "garden_centre"
       }
     },

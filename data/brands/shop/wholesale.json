@@ -308,6 +308,18 @@
       }
     },
     {
+      "displayName": "Ptáček",
+      "id": "ptacek-66d7f7",
+      "locationSet": {"include": ["cz", "sk"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Ptáček",
+        "brand:wikidata": "Q58195153",
+        "name": "Ptáček",
+        "shop": "wholesale"
+      }
+    },
+    {
       "displayName": "S&R Membership Shopping",
       "id": "sandrmembershipshopping-fc4d00",
       "locationSet": {"include": ["ph"]},

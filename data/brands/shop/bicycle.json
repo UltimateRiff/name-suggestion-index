@@ -73,6 +73,24 @@
       }
     },
     {
+      "displayName": "Bike&Co",
+      "id": "bikeandco-ff17d0",
+      "locationSet": {"include": ["dk"]},
+      "matchNames": [
+        "bike & ko",
+        "bike og co",
+        "bike og ko"
+      ],
+      "note": "preserve name as the brand is not primary visual identity of shops",
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Bike&Co",
+        "brand:wikidata": "Q138392067",
+        "name": "Bike&Co",
+        "shop": "bicycle"
+      }
+    },
+    {
       "displayName": "Bouticycle",
       "id": "bouticycle-64ac44",
       "locationSet": {"include": ["fx"]},
@@ -177,7 +195,7 @@
       "locationSet": {"include": ["dk"]},
       "tags": {
         "brand": "Fri BikeShop",
-        "brand:wikidata": "Q26721030",
+        "brand:wikidata": "Q80575447",
         "name": "Fri BikeShop",
         "shop": "bicycle"
       }

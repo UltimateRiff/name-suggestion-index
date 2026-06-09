@@ -112,7 +112,7 @@
       "tags": {
         "amenity": "charging_station",
         "operator": "Acea Energia",
-        "operator:wikidata": "Q113465154"
+        "operator:wikidata": "Q3604235"
       }
     },
     {
@@ -162,7 +162,7 @@
       "tags": {
         "amenity": "charging_station",
         "operator": "Agsm Verona Spa",
-        "operator:wikidata": "Q124713351"
+        "operator:wikidata": "Q17620223"
       }
     },
     {
@@ -435,17 +435,6 @@
       "tags": {
         "amenity": "charging_station",
         "operator": "Astor Enerji"
-      }
-    },
-    {
-      "displayName": "Atlante",
-      "id": "atlante-d2ead6",
-      "locationSet": {
-        "include": ["es", "fr", "it", "pt"]
-      },
-      "tags": {
-        "amenity": "charging_station",
-        "operator": "Atlante"
       }
     },
     {
@@ -2486,7 +2475,7 @@
       "tags": {
         "amenity": "charging_station",
         "operator": "ENSO Energie Sachsen Ost AG",
-        "operator:wikidata": "Q104758900"
+        "operator:wikidata": "Q1275368"
       }
     },
     {
@@ -2666,15 +2655,6 @@
         "amenity": "charging_station",
         "operator": "EuroSpin",
         "operator:wikidata": "Q1374674"
-      }
-    },
-    {
-      "displayName": "EV Power",
-      "id": "evpower-a1285d",
-      "locationSet": {"include": ["pt"]},
-      "tags": {
-        "amenity": "charging_station",
-        "operator": "EV Power"
       }
     },
     {
@@ -4053,22 +4033,13 @@
         "include": ["001"],
         "exclude": ["no", "se"]
       },
+      "matchNames": [
+        "lidl dienstleistung gmbh & co. kge"
+      ],
       "tags": {
         "amenity": "charging_station",
         "operator": "Lidl",
         "operator:wikidata": "Q151954"
-      }
-    },
-    {
-      "displayName": "Lidl Dienstleistung GmbH & Co. KGe",
-      "id": "lidldienstleistunggmbhandcokge-fcc3c2",
-      "locationSet": {
-        "include": ["de-nw.geojson"]
-      },
-      "tags": {
-        "amenity": "charging_station",
-        "operator": "Lidl Dienstleistung GmbH & Co. KGe",
-        "operator:wikidata": "Q113465054"
       }
     },
     {
@@ -4785,7 +4756,7 @@
       "tags": {
         "amenity": "charging_station",
         "operator": "Oppegård kommune",
-        "operator:wikidata": "Q45303406"
+        "operator:wikidata": "Q57868"
       }
     },
     {
@@ -5836,7 +5807,7 @@
       "tags": {
         "amenity": "charging_station",
         "operator": "South Lakeland District Council",
-        "operator:wikidata": "Q111962803"
+        "operator:wikidata": "Q73072749"
       }
     },
     {

@@ -295,7 +295,7 @@
     },
     {
       "displayName": "Jack Wolfskin",
-      "id": "jackwolfskin-279671",
+      "id": "jackwolfskin-d66c75",
       "locationSet": {
         "include": [
           "at",
@@ -307,7 +307,6 @@
           "it",
           "nl",
           "pl",
-          "ru",
           "ua"
         ]
       },
@@ -563,6 +562,17 @@
         "brand": "Vaude",
         "brand:wikidata": "Q322238",
         "name": "Vaude",
+        "shop": "outdoor"
+      }
+    },
+    {
+      "displayName": "YETI",
+      "id": "yeti-a7317e",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "YETI",
+        "brand:wikidata": "Q22026369",
+        "name": "YETI",
         "shop": "outdoor"
       }
     },

@@ -208,6 +208,17 @@
       }
     },
     {
+      "displayName": "Brilleland",
+      "id": "brilleland-4ee896",
+      "locationSet": {"include": ["no"]},
+      "tags": {
+        "brand": "Brilleland",
+        "brand:wikidata": "Q11962280",
+        "name": "Brilleland",
+        "shop": "optician"
+      }
+    },
+    {
       "displayName": "Brillen Rottler",
       "id": "brillenrottler-7fb7e9",
       "locationSet": {"include": ["de"]},
@@ -387,7 +398,7 @@
     },
     {
       "displayName": "Fielmann",
-      "id": "fielmann-f003f4",
+      "id": "fielmann-f932c9",
       "locationSet": {
         "include": [
           "at",
@@ -400,7 +411,6 @@
           "lv",
           "nl",
           "pl",
-          "ru",
           "ua"
         ]
       },
@@ -1057,6 +1067,17 @@
       }
     },
     {
+      "displayName": "Optique E.Leclerc",
+      "id": "optiqueeleclerc-8cd79e",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "E.Leclerc",
+        "brand:wikidata": "Q1273376",
+        "name": "Optique E.Leclerc",
+        "shop": "optician"
+      }
+    },
+    {
       "displayName": "Orange Optik",
       "id": "orangeoptik-012d10",
       "locationSet": {"include": ["cz"]},
@@ -1174,6 +1195,17 @@
         "brand": "pro optik",
         "brand:wikidata": "Q22671933",
         "name": "pro optik",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "Profil Optik",
+      "id": "profiloptik-f943c4",
+      "locationSet": {"include": ["dk"]},
+      "tags": {
+        "brand": "Profil Optik",
+        "brand:wikidata": "Q12332426",
+        "name": "Profil Optik",
         "shop": "optician"
       }
     },
@@ -1395,8 +1427,8 @@
     },
     {
       "displayName": "Synoptik",
-      "id": "synoptik-876f61",
-      "locationSet": {"include": ["se"]},
+      "id": "synoptik-32f5e0",
+      "locationSet": {"include": ["dk", "se"]},
       "tags": {
         "brand": "Synoptik",
         "brand:wikidata": "Q10687541",
@@ -1437,6 +1469,17 @@
         "brand": "Theodore & Pringle Optical",
         "brand:wikidata": "Q122811127",
         "name": "Theodore & Pringle Optical",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "Thiele",
+      "id": "thiele-f943c4",
+      "locationSet": {"include": ["dk"]},
+      "tags": {
+        "brand": "Thiele",
+        "brand:wikidata": "Q12339176",
+        "name": "Thiele",
         "shop": "optician"
       }
     },

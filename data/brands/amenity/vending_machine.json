@@ -20,6 +20,7 @@
         "^parquímetro$",
         "^taromatas$",
         "^zigarettenautomat$",
+        "^zona azul$",
         "^自販機$"
       ]
     }
@@ -1083,7 +1084,7 @@
       "tags": {
         "amenity": "vending_machine",
         "brand": "Parkeon",
-        "brand:wikidata": "Q131636808",
+        "brand:wikidata": "Q3365450",
         "vending": "parking_tickets"
       }
     },
@@ -1426,12 +1427,16 @@
     },
     {
       "displayName": "Terminal Automática SUBE",
-      "id": "terminalautomaticasube-48f03b",
+      "id": "sube-48f03b",
       "locationSet": {"include": ["ar"]},
+      "matchNames": [
+        "sistema único de boleto electrónico",
+        "terminal automática sube"
+      ],
       "tags": {
         "amenity": "vending_machine",
-        "brand": "Terminal Automática SUBE",
-        "name": "Terminal Automática SUBE",
+        "brand": "SUBE",
+        "brand:wikidata": "Q7394941",
         "vending": "public_transport_tickets"
       }
     },
@@ -1488,6 +1493,18 @@
         "brand": "Tokeny.Store",
         "name": "Tokeny.Store",
         "vending": "electronics"
+      }
+    },
+    {
+      "displayName": "Twice the Ice",
+      "id": "twicetheice-7e3927",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Twice the Ice",
+        "brand:wikidata": "Q126723881",
+        "name": "Twice the Ice",
+        "vending": "ice_cubes;water"
       }
     },
     {
@@ -1588,18 +1605,6 @@
         "brand:wikidata": "Q131598948",
         "name": "Zernova",
         "vending": "coffee"
-      }
-    },
-    {
-      "displayName": "Zona Azul",
-      "id": "zonaazul-9a306d",
-      "locationSet": {"include": ["es"]},
-      "tags": {
-        "amenity": "vending_machine",
-        "brand": "Zona Azul",
-        "brand:wikidata": "Q6052214",
-        "name": "Zona Azul",
-        "vending": "parking_tickets"
       }
     },
     {

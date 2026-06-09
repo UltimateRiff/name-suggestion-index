@@ -1014,7 +1014,7 @@
     },
     {
       "displayName": "Marks & Spencer",
-      "id": "marksandspencer-bca367",
+      "id": "marksandspencer-3de0e9",
       "locationSet": {
         "include": [
           "cy",
@@ -1022,8 +1022,7 @@
           "gb",
           "gr",
           "ie",
-          "in",
-          "ru"
+          "in"
         ]
       },
       "matchNames": ["маркс и спенсер"],
@@ -1469,6 +1468,17 @@
         "brand": "Target",
         "brand:wikidata": "Q1046951",
         "name": "Target",
+        "shop": "department_store"
+      }
+    },
+    {
+      "displayName": "Teso Life",
+      "id": "tesolife-592fe0",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "Teso Life",
+        "brand:wikidata": "Q139731915",
+        "name": "Teso Life",
         "shop": "department_store"
       }
     },

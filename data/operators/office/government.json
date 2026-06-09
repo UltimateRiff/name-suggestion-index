@@ -30,7 +30,7 @@
         "office": "government",
         "operator": "Administración Federal de Ingresos Públicos",
         "operator:short": "AFIP",
-        "operator:wikidata": "Q130607922"
+        "operator:wikidata": "Q830277"
       }
     },
     {
@@ -129,6 +129,19 @@
         "office": "government",
         "operator": "Ayuntamiento de Santa Cruz de Tenerife",
         "operator:wikidata": "Q5714931"
+      }
+    },
+    {
+      "displayName": "Ayuntamiento de Valladolid",
+      "id": "ayuntamientodevalladolid-a8d5ed",
+      "locationSet": {
+        "include": ["es-va.geojson"]
+      },
+      "tags": {
+        "office": "government",
+        "operator": "Ayuntamiento de Valladolid",
+        "operator:type": "government",
+        "operator:wikidata": "Q8210810"
       }
     },
     {
@@ -790,7 +803,7 @@
         "operator:de": "FOD Finanzen",
         "operator:fr": "SPF Finances",
         "operator:nl": "FOD Financiën",
-        "operator:wikidata": "Q28438031"
+        "operator:wikidata": "Q2479908"
       }
     },
     {
@@ -1629,7 +1642,7 @@
         "operator:en": "National Economic and Development Authority",
         "operator:short": "NEDA",
         "operator:tl": "Pambansang Pangasiwaan sa Kabuhayan at Pagpapaunlad",
-        "operator:wikidata": "Q134305440"
+        "operator:wikidata": "Q6972376"
       }
     },
     {

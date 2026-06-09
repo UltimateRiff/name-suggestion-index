@@ -971,8 +971,7 @@
       "tags": {
         "amenity": "parcel_locker",
         "brand": "Pigeon Express",
-        "brand:wikidata": "Q138668232",
-        "name": "Pigeon Express"
+        "brand:wikidata": "Q138668232"
       }
     },
     {
@@ -1092,15 +1091,14 @@
       }
     },
     {
-      "displayName": "pudo",
+      "displayName": "The Courier Guy",
       "id": "pudo-6115c3",
+      "matchNames": ["courier guy"],
       "locationSet": {"include": ["za"]},
       "tags": {
         "amenity": "parcel_locker",
-        "brand": "pudo",
-        "brand:wikidata": "Q116753323",
-        "operator": "The Courier Guy",
-        "operator:wikidata": "Q116753262"
+        "brand": "The Courier Guy",
+        "brand:wikidata": "Q116753262"
       }
     },
     {
@@ -1204,8 +1202,7 @@
       "tags": {
         "amenity": "parcel_locker",
         "brand": "Speedy",
-        "brand:wikidata": "Q131312685",
-        "name": "Speedy"
+        "brand:wikidata": "Q131312685"
       }
     },
     {
@@ -1311,7 +1308,11 @@
       "displayName": "Епіцентр К",
       "id": "13cf8e-7c151e",
       "locationSet": {"include": ["ua"]},
-      "matchNames": ["epicentr k", "епіцентр"],
+      "matchNames": [
+        "epicentr k",
+        "epizentr",
+        "епіцентр"
+      ],
       "tags": {
         "amenity": "parcel_locker",
         "brand": "Епіцентр К",

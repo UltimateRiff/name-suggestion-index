@@ -1509,6 +1509,10 @@
       "locationSet": {
         "include": ["au-nsw.geojson"]
       },
+      "matchNames": [
+        "tfnsw",
+        "transport for nsw"
+      ],
       "tags": {
         "amenity": "toilets",
         "operator": "Sydney Trains",
@@ -1617,7 +1621,7 @@
         "brand:wikidata": "Q48797419",
         "operator": "City of Portland",
         "operator:type": "government",
-        "operator:wikidata": "Q6106",
+        "operator:wikidata": "Q5589293",
         "toilets:disposal": "flush"
       }
     },

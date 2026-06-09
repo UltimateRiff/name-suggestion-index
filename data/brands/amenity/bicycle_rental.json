@@ -54,8 +54,9 @@
         "brand:wikidata": "Q17620480",
         "network": "AlbaBici",
         "network:wikidata": "Q17620480",
-        "operator": "Labici",
-        "operator:type": "private"
+        "operator": "UTE Bicicletas Albacete",
+        "operator:type": "private",
+        "operator:wikidata": "Q139323763"
       }
     },
     {
@@ -352,20 +353,6 @@
       }
     },
     {
-      "displayName": "biciAltea",
-      "id": "bicialtea-4949ca",
-      "locationSet": {
-        "include": ["es-a.geojson"]
-      },
-      "tags": {
-        "amenity": "bicycle_rental",
-        "brand": "biciAltea",
-        "network": "biciAltea",
-        "operator": "Labici",
-        "operator:type": "private"
-      }
-    },
-    {
       "displayName": "Bicicas",
       "id": "bicicas-d3e56c",
       "locationSet": {
@@ -434,9 +421,12 @@
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "BiciLOG",
+        "brand:wikidata": "Q139323877",
         "network": "BiciLOG",
-        "operator": "Impursa S.A.",
-        "operator:type": "private"
+        "network:wikidata": "Q139323877",
+        "operator": "Nextbike",
+        "operator:type": "private",
+        "operator:wikidata": "Q2351279"
       }
     },
     {
@@ -1602,6 +1592,18 @@
       }
     },
     {
+      "displayName": "Dott",
+      "id": "dott-06d22c",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "bicycle_rental",
+        "bicycle_rental": "docking_station",
+        "brand": "Dott",
+        "brand:wikidata": "Q107463014",
+        "name": "Dott"
+      }
+    },
+    {
       "displayName": "Drammen Bysykler",
       "id": "drammenbysykler-e79826",
       "locationSet": {"include": ["no"]},
@@ -1713,15 +1715,14 @@
     },
     {
       "displayName": "fLotte",
-      "id": "flotte-937152",
-      "locationSet": {"include": ["de"]},
+      "id": "flotte-aad226",
+      "locationSet": {
+        "include": ["de-be.geojson"]
+      },
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "fLotte",
-        "brand:wikidata": "Q102333872",
-        "operator": "ADFC",
-        "operator:type": "association",
-        "operator:wikidata": "Q24349"
+        "brand:wikidata": "Q102333872"
       }
     },
     {
@@ -1823,7 +1824,8 @@
         "brand": "Gira",
         "brand:wikidata": "Q65049332",
         "operator": "EMEL",
-        "operator:type": "private"
+        "operator:type": "public",
+        "operator:wikidata": "Q30256831"
       }
     },
     {
@@ -3147,6 +3149,22 @@
       }
     },
     {
+      "displayName": "Pilsen Bike",
+      "id": "pilsenbike-143d02",
+      "locationSet": {
+        "include": ["cz-32.geojson"]
+      },
+      "tags": {
+        "amenity": "bicycle_rental",
+        "brand": "Pilsen Bike",
+        "brand:wikidata": "Q138580074",
+        "operator": "Plzeňské městské dopravní podniky",
+        "operator:short": "PMDP",
+        "operator:type": "public",
+        "operator:wikidata": "Q2099900"
+      }
+    },
+    {
       "displayName": "Piotrkowski Rower Miejski",
       "id": "piotrkowskirowermiejski-72061f",
       "locationSet": {
@@ -3293,6 +3311,22 @@
       }
     },
     {
+      "displayName": "PubliBike Velospot (Region Bern)",
+      "id": "publibikevelospot-a8de7e",
+      "locationSet": {
+        "include": [[7.45, 46.95, 10]]
+      },
+      "tags": {
+        "amenity": "bicycle_rental",
+        "brand": "PubliBike Velospot",
+        "brand:wikidata": "Q138003595",
+        "network": "Velo Region Bern",
+        "operator": "PubliBike AG",
+        "operator:type": "private",
+        "operator:wikidata": "Q3555363"
+      }
+    },
+    {
       "displayName": "PubliBike Velospot (Région de Nyon)",
       "id": "publibikevelospot-61be25",
       "locationSet": {
@@ -3335,22 +3369,6 @@
         "brand": "PubliBike Velospot",
         "brand:wikidata": "Q138003595",
         "network": "Sion",
-        "operator": "PubliBike AG",
-        "operator:type": "private",
-        "operator:wikidata": "Q3555363"
-      }
-    },
-    {
-      "displayName": "PubliBike Velospot (Velo Bern)",
-      "id": "publibikevelospot-a8de7e",
-      "locationSet": {
-        "include": [[7.45, 46.95, 10]]
-      },
-      "tags": {
-        "amenity": "bicycle_rental",
-        "brand": "PubliBike Velospot",
-        "brand:wikidata": "Q138003595",
-        "network": "Velo Region Bern",
         "operator": "PubliBike AG",
         "operator:type": "private",
         "operator:wikidata": "Q3555363"
@@ -3403,8 +3421,10 @@
     },
     {
       "displayName": "RegioRad Stuttgart",
-      "id": "regioradstuttgart-937152",
-      "locationSet": {"include": ["de"]},
+      "id": "regioradstuttgart-8f14ce",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "RegioRad Stuttgart",
@@ -3814,9 +3834,11 @@
         "brand": "Südtirol Rad",
         "brand:de": "Südtirol Rad",
         "brand:it": "Bici Alto Adige",
+        "brand:wikidata": "Q139559068",
         "network": "Südtirol Rad",
         "network:de": "Südtirol Rad",
         "network:it": "Bici Alto Adige",
+        "network:wikidata": "Q139559068",
         "operator": "Südtirol Rad",
         "operator:type": "private"
       }
@@ -4495,8 +4517,10 @@
     },
     {
       "displayName": "Velocity Aachen",
-      "id": "velocityaachen-937152",
-      "locationSet": {"include": ["de"]},
+      "id": "velocityaachen-130ced",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "Velocity Aachen",

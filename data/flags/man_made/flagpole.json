@@ -2390,7 +2390,11 @@
       "displayName": "GB - United Kingdom",
       "id": "unionjack-e5dc93",
       "locationSet": {"include": ["001"]},
-      "matchNames": ["great britain", "uk"],
+      "matchNames": [
+        "great britain",
+        "uk",
+        "union flag"
+      ],
       "tags": {
         "country": "GB",
         "flag:name": "Union Jack",
@@ -5832,7 +5836,7 @@
       "tags": {
         "flag:name": "Confederate States of America",
         "flag:type": "military",
-        "flag:wikidata": "Q55874812",
+        "flag:wikidata": "Q1788743",
         "man_made": "flagpole",
         "subject": "Confederate States of America",
         "subject:wikidata": "Q81931"

@@ -1,6 +1,6 @@
 {
   "name": "name-suggestion-index",
-  "version": "7.0.20260216",
+  "version": "7.2.20260607",
   "license": "BSD-3-Clause",
   "description": "Canonical common brand names for OpenStreetMap",
   "homepage": "https://nsi.guide",
@@ -59,6 +59,7 @@
     "Minh Nguyễn <mxn@1ec5.org> (https://github.com/1ec5)",
     "nuxper (https://github.com/nuxper)",
     "Outlet2048 (https://github.com/Outlet2048)",
+    "Pavel Afanasov (https://github.com/empty-child)",
     "Peter Newman (https://github.com/peternewman)",
     "Praxis Darian <hello@vulpinecat.com> (https://github.com/good-praxis)",
     "Quincy Morgan (https://github.com/quincylvania)",
@@ -77,28 +78,31 @@
   "files": [
     "config/",
     "dist/",
+    "docs/",
     "lib/",
     "schema/",
     "src/"
   ],
   "type": "module",
   "exports": {
+    "types": "./dist/ts/src/nsi.d.ts",
     "bun": "./src/nsi.ts",
     "dist/*": "./dist/*",
-    "types": "./dist/ts/src/nsi.d.ts",
     "import": "./dist/js/nsi.mjs",
     "require": "./dist/js/nsi.cjs",
     "browser": "./dist/js/nsi.iife.js"
   },
   "scripts": {
-    "all": "bun run --sequential clean lint build test",
+    "all": "bun run --sequential clean check build test",
     "build": "bun run --parallel 'build:*'",
     "build:js": "bun ./scripts/build_js.ts",
     "build:json": "bun ./scripts/build_json.ts",
-    "build:ts": "tsc",
+    "build:ts": "tsc -p tsconfig.build.json",
+    "check": "bun run --parallel 'check:*'",
+    "check:lint": "eslint ./lib ./scripts ./src ./test",
+    "check:types": "tsc --noEmit",
     "clean": "bun ./scripts/clean.ts",
     "dist": "bun ./scripts/dist.ts",
-    "lint": "eslint ./lib ./scripts ./src ./test",
     "prepublishOnly": "bun ./scripts/prepublish.ts",
     "postpublish": "bun ./scripts/postpublish.ts",
     "start": "bun ./scripts/server.ts",
@@ -106,40 +110,42 @@
     "wikidata": "bun ./scripts/wikidata.ts"
   },
   "dependencies": {
+    "@rapideditor/location-conflation": "^3.0.1",
+    "@types/diacritics": "^1.3.3",
+    "@types/geojson": "^7946.0.16",
     "diacritics": "^1.3.0",
-    "which-polygon": "^2.2.1"
+    "fast-xml-builder": "^1.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@fortawesome/free-brands-svg-icons": "^7.2.0",
     "@fortawesome/free-solid-svg-icons": "^7.2.0",
-    "@fortawesome/react-fontawesome": "^3.3.0",
+    "@fortawesome/react-fontawesome": "^3.3.1",
     "@ideditor/nsi-collector": "1.0.20250817",
     "@mapbox/geojson-area": "^0.2.2",
     "@mapbox/geojson-rewind": "^0.5.2",
-    "@openstreetmap/id-tagging-schema": "~6.15.0",
-    "@rapideditor/location-conflation": "~2.0.1",
-    "@types/bun": "^1.3.11",
-    "@types/diacritics": "^1.3.3",
-    "eslint": "^10.1.0",
+    "@openstreetmap/id-tagging-schema": "~6.17.0",
+    "@types/bun": "^1.3.14",
+    "@types/geojson-precision": "^1.0.0",
+    "@types/safe-regex": "^1.1.6",
+    "eslint": "^10.4.1",
+    "eslint-plugin-import": "^2.32.0",
     "geojson-bounds": "^1.0.4",
     "geojson-precision": "^1.0.0",
-    "globals": "^17.4.0",
+    "globals": "^17.6.0",
+    "json-stringify-pretty-compact": "^4.0.0",
     "json5": "^2.2.3",
     "jsonschema": "^1.5.0",
-    "json-stringify-pretty-compact": "^4.0.0",
-    "locale-compare": "^2.0.0",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "react-router-dom": "^7.13.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.16.0",
     "safe-regex": "^2.1.1",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.57.1",
-    "wikibase-edit": "^8.1.0",
-    "wikibase-sdk": "^11.2.7",
-    "xmlbuilder2": "^4.0.3"
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.60.1",
+    "wikibase-edit": "^8.1.2",
+    "wikibase-sdk": "^11.6.1"
   },
   "engines": {
-    "bun": ">=1.3.0"
+    "bun": ">=1.3.14"
   }
 }

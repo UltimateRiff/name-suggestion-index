@@ -13,6 +13,20 @@
   },
   "items": [
     {
+      "displayName": "AAA Auto",
+      "id": "aaaauto-e524cd",
+      "locationSet": {
+        "include": ["cz", "hu", "pl", "sk"]
+      },
+      "tags": {
+        "brand": "AAA Auto",
+        "brand:wikidata": "Q10359961",
+        "name": "AAA Auto",
+        "second_hand": "only",
+        "shop": "car"
+      }
+    },
+    {
       "displayName": "Abarth",
       "id": "abarth-13eeb7",
       "locationSet": {"include": ["001"]},
@@ -579,7 +593,7 @@
       "locationSet": {"include": ["au", "nz"]},
       "tags": {
         "brand": "Holden",
-        "brand:wikidata": "Q112728701",
+        "brand:wikidata": "Q29281",
         "name": "Holden",
         "shop": "car"
       }

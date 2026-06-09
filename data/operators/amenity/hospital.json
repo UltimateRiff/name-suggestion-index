@@ -1479,7 +1479,7 @@
         "healthcare": "hospital",
         "operator": "KentuckyOne Health",
         "operator:type": "private",
-        "operator:wikidata": "Q104834854"
+        "operator:wikidata": "Q30282191"
       }
     },
     {
@@ -2566,6 +2566,20 @@
       }
     },
     {
+      "displayName": "Osasunbidea",
+      "id": "osasunbidea-505faf",
+      "locationSet": {
+        "include": ["es-na.geojson"]
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Osasunbidea",
+        "operator:type": "public",
+        "operator:wikidata": "Q11703775"
+      }
+    },
+    {
       "displayName": "Paracelsus-Kliniken",
       "id": "paracelsuskliniken-8bb61e",
       "locationSet": {"include": ["de"]},
@@ -3168,7 +3182,7 @@
         "healthcare": "hospital",
         "operator": "Texas Department of Aging and Disability Services",
         "operator:type": "government",
-        "operator:wikidata": "Q7707726"
+        "operator:wikidata": "Q7707626"
       }
     },
     {
